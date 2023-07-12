@@ -11,7 +11,7 @@
     
     <!-- 图标，好恶心啊，应该放在下面一行的上面 -->
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/DeltaPainS/images/favicon.png" type="image/png" />
-    <div id="binft" style="font-size: 20px;margin: 11px 0;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
+    <div id="binft" style="font-size: 11px;margin: 11px 0;margin-left: 55px;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
 </head>
 
     <meta name="description" content="丝女手记 夫人十分愤慨，对我们说：“我生来以在山崎会战中与太阁殿下一争天下的惟任将军光秀为父，死后又将以天国中的圣母玛利亚为母，临终之际却因为这平庸小诸侯的女儿，蒙受奇耻大辱，想来实属荒唐！”夫人当时那激烈的神情，至今还如在眼前。  　　秀林院夫人[1]，即细川越中守忠兴的夫人，逝后的法号为秀林院殿华屋宗玉大姊。夫人临终前后的情形记录如下。 　　一、石田治部少[2]动乱的那一年，即庆长五年（160">
@@ -24,9 +24,9 @@
 <meta property="article:published_time" content="2022-06-24T05:25:21.000Z">
 <meta property="article:modified_time" content="2022-06-24T14:12:13.130Z">
 <meta property="article:author" content="DeltaPainS">
-<meta property="article:tag" content="短篇小说">
 <meta property="article:tag" content="芥川龙之介">
 <meta property="article:tag" content="日本作家">
+<meta property="article:tag" content="短篇小说">
 <meta name="twitter:card" content="summary">
     
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
@@ -34,13 +34,13 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1656329731246">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1689176553790">
     
-    <link rel="stylesheet" href="/css/style.css?v=1656329731247">
+    <link rel="stylesheet" href="/css/style.css?v=1689176553790">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1656329731247">
+            <link rel="stylesheet" href="/custom.css?v=1689176553790">
         
     
 
@@ -57,6 +57,23 @@
     <!-- Live2D -->
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
     <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <style>
+        #waifu{
+            left: 80px;
+        }
+        #live2d{
+            width: 255px;
+            height: 255px;
+        }
+        #waifu-tool {
+            color: #aaa;
+            opacity: 0;
+            position: absolute;
+            right: -5px;
+            top: 50px;
+            transition: opacity 1s;
+        }
+    </style>
 
     <!--浏览器搞笑标题-->
     <script type="text/javascript" src="\js\FunnyTitle.js"></script>
@@ -71,14 +88,6 @@
 
     <!-- 在线联系 -->
     
-        <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/43cf9cc9.js","daovoice")</script>
-        <script>
-            daovoice('init', {
-            app_id: "43cf9cc9"
-            });
-            daovoice('update');
-        </script>
-    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HMECE6TL8"></script>
@@ -89,6 +98,18 @@
 
         gtag('config', 'G-3HMECE6TL8');
     </script>
+
+    <!-- 新版百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0dcc380cfe33d140cafe34e7cbd81a95";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
 
     <!-- 样式一（鼠标点击更换样式） -->
     
@@ -105,6 +126,11 @@
 
     <!-- 不蒜子 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    <!-- 全局音乐播放器 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -127,8 +153,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>37</div>
-        <div><span>标签</span>21</div>
+        <div><span>文章</span>178</div>
+        <div><span>标签</span>28</div>
         <div><span>分类</span>7</div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
@@ -314,50 +340,50 @@
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/">分类1</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/佛教/">佛教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/">分类1的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/分类1的子分类的子分类/">分类1的子分类的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/">分类2</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/分类2的子分类/">分类2的子分类</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/">宗教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/文学/">文学</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/">社会</a>
+          <span class="category-list-count">4</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/索引/">索引</a>
+          <span class="category-list-count">5</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/">艺术</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/诸相/">诸相</a>
+          <span class="category-list-count">4</span>
         </li>
 
         
@@ -372,12 +398,12 @@
         
   <div class="nexmoe-widget-wrap">
     <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
-      <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 15px;">日本作家</a> <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 10px;">标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE2/" style="font-size: 10px;">标签2</a> <a href="/tags/%E6%A0%87%E7%AD%BE3/" style="font-size: 10px;">标签3</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 20px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 15px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">中篇小说</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BD%9B%E6%95%99%E7%BB%8F%E5%85%B8/" style="font-size: 12px;">佛教经典</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/" style="font-size: 10px;">卡夫卡</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%A5%A5%E5%9C%B0%E5%88%A9%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">奥地利作家</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E5%BF%83%E7%BB%8F/" style="font-size: 10px;">心经</a> <a href="/tags/%E6%95%A3%E6%96%87/" style="font-size: 14px;">散文</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 20px;">日本作家</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 16px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 18px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E8%B0%B7%E5%B4%8E%E6%B6%A6%E4%B8%80%E9%83%8E/" style="font-size: 10px;">谷崎润一郎</a> <a href="/tags/%E9%87%91%E5%88%9A%E7%BB%8F/" style="font-size: 10px;">金刚经</a> <a href="/tags/%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">长篇小说</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
     </div>
     
       <script>
         var maxTagcloud = parseInt(17);
-        var tags_length = parseInt(21);
+        var tags_length = parseInt(28);
         var tags_arr = [];
         for(var i = 0; i < tags_length; i++){
           tags_arr.push(i);
@@ -442,7 +468,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">文章归档</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">37</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2099/">2099</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a><span class="archive-list-count">53</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">124</span></li></ul>
     </div>
   </div>
 
@@ -457,23 +483,23 @@
       <ul>
         
           <li>
-            <a href="/2022/06/26/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
+            <a href="/2099/12/31/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
           </li>
         
           <li>
-            <a href="/2022/06/26/%E4%B8%80%E4%B8%AA%E5%82%BB%E5%AD%90%E7%9A%84%E4%B8%80%E7%94%9F/">一个傻子的一生</a>
+            <a href="/2023/03/20/%E9%82%AA%E5%AE%97%E9%97%A8/">邪宗门</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E6%B2%B3%E7%AB%A5/">河童</a>
+            <a href="/2023/03/20/%E8%B7%AF%E4%B8%8A/">路上</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E7%82%B9%E9%AC%BC%E8%96%84/">点鬼薄</a>
+            <a href="/2023/01/23/%E6%9A%97%E4%B8%AD%E9%97%AE%E7%AD%94/">暗中问答</a>
           </li>
         
           <li>
-            <a href="/2022/06/24/%E5%AD%94%E4%B9%99%E5%B7%B1/">孔乙己</a>
+            <a href="/2023/01/23/%E4%B8%89%E6%89%87%E7%AA%97%E5%AD%90/">三扇窗子</a>
           </li>
         
       </ul>
@@ -484,13 +510,13 @@
         
     
     <!-- 网易云外链 -->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe>
+    <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe> -->
 </aside>
     <div class="nexmoe-copyright">
-        &copy; 2022 DeltaPainS
+        &copy; 2023 DeltaPainS
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
+        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><a id="dytx" target="_blank" href="https://freenom.painliudao.tk/">地狱通信</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
     </div>
 </div><!-- .nexmoe-drawer -->
     </div>
@@ -523,40 +549,40 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="丝女手记"><a href="#丝女手记" class="headerlink" title="丝女手记"></a>丝女手记</h1><blockquote>
 <p>夫人十分愤慨，对我们说：“我生来以在山崎会战中与太阁殿下一争天下的惟任将军光秀为父，死后又将以天国中的圣母玛利亚为母，临终之际却因为这平庸小诸侯的女儿，蒙受奇耻大辱，想来实属荒唐！”夫人当时那激烈的神情，至今还如在眼前。</p>
 </blockquote>
-<p>　　秀林院夫人<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="秀林院夫人即细川伽罗奢（1563—1600），本名明智玉子，是日本战国时期大将明智光秀的女儿，熊本藩藩主细川忠兴的正室。她是日本最早的基督教徒，“伽罗奢”即拉丁语“神的恩宠”之意。1600年7月细川忠兴追随德川家康的东军征伐上杉，西军的石田三成要求大阪的诸侯家提交人质，细川家拒绝。16日，石田三成派人强行上门索要人质，细川伽罗奢自杀。细川伽罗奢是日本历史上有名的烈女，且据传兼有才华与美貌。
+<p>　　秀林院夫人<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="秀林院夫人即细川伽罗奢（1563—1600），本名明智玉子，是日本战国时期大将明智光秀的女儿，熊本藩藩主细川忠兴的正室。她是日本最早的基督教徒，“伽罗奢”即拉丁语“神的恩宠”之意。1600年7月细川忠兴追随德川家康的东军征伐上杉，西军的石田三成要求大阪的诸侯家提交人质，细川家拒绝。16日，石田三成派人强行上门索要人质，细川伽罗奢自杀。细川伽罗奢是日本历史上有名的烈女，且据传兼有才华与美貌。
 ">[1]</span></a></sup>，即细川越中守忠兴的夫人，逝后的法号为秀林院殿华屋宗玉大姊。夫人临终前后的情形记录如下。</p>
-<p>　　一、石田治部少<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="即石田三成（1560—1600），日本安土桃山时代的大将，丰臣氏政权的实权人物。1600年9月在丰臣氏与德川家康决战的关原之战中领导西军，战败后被俘，10月被斩首于京都。
+<p>　　一、石田治部少<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="即石田三成（1560—1600），日本安土桃山时代的大将，丰臣氏政权的实权人物。1600年9月在丰臣氏与德川家康决战的关原之战中领导西军，战败后被俘，10月被斩首于京都。
 ">[2]</span></a></sup>动乱的那一年，即庆长五年（1600年）七月十日，我的父亲鱼屋清左卫门来到大阪的玉造府邸拜谒，献给秀林院夫人十只金丝雀。夫人喜欢一切南蛮的舶来品，因而十分欢喜，连我也有了体面。只不过，夫人拥有的家什器物中，假洋货实在不少，像金丝雀这样来历分明的舶来物，还一样也没有。当时，我父亲禀告夫人说，凉风渐起之际，想要小女拜别夫人，回家料理出嫁事宜。我已经侍奉了夫人三年，夫人一点儿也不和蔼，只以维持贤德女人的仪态举止为第一要务。即便我常在夫人身边，她也从来不苟言笑，总之气闷得很。所以我听到父亲的话，真觉得喜从天降。这天，秀林院夫人说，日本国的女人之所以智慧浅薄，皆是由于不读洋书的缘故。我想，夫人来世一定会嫁给南蛮国的王公诸侯。</p>
 <p>　　二、十一日，尼姑澄见前来拜望秀林院夫人。据说这尼姑如今在大阪城堡内巴结贵人们，是个八面玲珑的家伙。从前她是京都一家丝铺老板的未亡人，先后换过六个丈夫，并不是什么正派女人。我一看到澄见的脸，就厌恶得直作呕，但夫人却并不讨厌她，有时甚至会和她谈上小半天。每逢这种时候，我们这些上房的侍女们都烦恼得很。这都是因为夫人喜欢听奉承话的缘故。比如，澄见老是对夫人说：“夫人一直这么美丽。无论哪位大人老爷见了，必定以为夫人只有二十出头呢。”她就这么煞有介事地称赞夫人的容貌。其实，夫人生得并没有多么美貌，尤其是鼻子太高了些，脸上还有少许雀斑。况且，夫人已经三十八岁了，就算是晚上看，或者远远望去，也不会像是二十出头。</p>
-<p>　　三、澄见这天来访，是暗中受了治部少一方的嘱托，来劝说夫人移住到大阪城堡内。夫人对澄见说，要考虑一番再做答复。但夫人似乎并没有一个确定的主意。澄见走后，夫人每隔一刻时辰，便到圣母玛利亚画像前，诚心诚意地做一遍那个叫“奥拉笑”<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="“奥拉笑”即oratio，意为祈祷；“闹死”即noster，意为我们的，均为拉丁文。
+<p>　　三、澄见这天来访，是暗中受了治部少一方的嘱托，来劝说夫人移住到大阪城堡内。夫人对澄见说，要考虑一番再做答复。但夫人似乎并没有一个确定的主意。澄见走后，夫人每隔一刻时辰，便到圣母玛利亚画像前，诚心诚意地做一遍那个叫“奥拉笑”<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="“奥拉笑”即oratio，意为祈祷；“闹死”即noster，意为我们的，均为拉丁文。
 ">[3]</span></a></sup>的祈祷。顺便说一句，秀林院夫人的“奥拉笑”不用日本话说，用的是南蛮的拉丁话。我们只听到“闹死，闹死”，要强忍着不笑出来，可着实难熬得很。</p>
-<p>　　四、十二日，没什么特别的事。只不过，一早起来，秀林院夫人的心情似乎就不大好。夫人心绪恶劣的时候，不必说我们，就是对与一郎（忠兴之子，忠隆）公子的妻子<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="细川伽罗奢生有三子，与一郎忠隆为长子，娶大名前田利家的女儿千世为妻。秀林院夫人遇难时，千世逃往姐姐豪姬处避难，惹怒细川忠兴。忠兴命忠隆休弃千世，忠隆不愿意，因而被迫放弃细川家的继承权，藩主之位遂由弟弟细川忠利继承。
-">[4]</span></a></sup>，夫人也会指责抱怨，所以谁也不敢轻易靠近夫人身边。今天也是，夫人嫌与一郎少夫人的妆化得太浓，引用《伊曾保物语》<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="即《伊索寓言》。
+<p>　　四、十二日，没什么特别的事。只不过，一早起来，秀林院夫人的心情似乎就不大好。夫人心绪恶劣的时候，不必说我们，就是对与一郎（忠兴之子，忠隆）公子的妻子<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="细川伽罗奢生有三子，与一郎忠隆为长子，娶大名前田利家的女儿千世为妻。秀林院夫人遇难时，千世逃往姐姐豪姬处避难，惹怒细川忠兴。忠兴命忠隆休弃千世，忠隆不愿意，因而被迫放弃细川家的继承权，藩主之位遂由弟弟细川忠利继承。
+">[4]</span></a></sup>，夫人也会指责抱怨，所以谁也不敢轻易靠近夫人身边。今天也是，夫人嫌与一郎少夫人的妆化得太浓，引用《伊曾保物语》<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="即《伊索寓言》。
 ">[5]</span></a></sup>中孔雀的故事，长篇大论地进行说教。众人都很同情少夫人。少夫人是隔壁府邸的浮田中纳言夫人的妹妹，虽然不能说人有多伶俐，但模样并不比任何名家制作的美貌人偶逊色。</p>
 <p>　　五、十三日，小笠原少斋（秀清）、河北石见（一成）两位来到了厨房。根据细川家的家规，不要说男人，就是男孩也不能进入内宅。因此外面的家臣有事便到厨房，托我们向内宅禀报，这早已成为惯例。这都是因为三斋大人（忠兴）和秀林院夫人互相嫉妒的结果。据说黑田家的森太兵卫曾经取笑道，居然还有这么不方便的家规。但是规矩是规矩，私下总有变通的办法，并没有多么不方便。</p>
 <p>　　六、少斋和石见二位叫出侍女阿霜，细细地说了许久。据说此番治部少突然决定，凡是追随东军的诸侯，都要送出人质。这虽然还是风传，但究竟如何应对，还要请夫人裁定。那会儿，阿霜对我说：“府中留守的这些人也太迟钝了，前天澄见就告诉了夫人这个消息。这让我怎么去禀报好呢？”不过，这并不是什么稀奇事，比起府中留守的家臣们，世间的消息总是先传到我们的耳朵里。少斋是个规矩板正的老人，石见又是个只热衷舞刀弄枪的武夫，这也是难怪的。总之，此种情形屡屡发生，我们内宅的人要表达“世间无人不知”的时候，就改说成“连府里留守的人都知道了”。</p>
 <p>　　七、阿霜当即禀报夫人。夫人的意思是，治部少与三斋大人一向交恶，此番索要人质，八成会从我们家开始，若万一不是，就按照别人家的做法；若是第一个找到我们，该如何回复，由少斋和石见二人斟酌处理。但少斋和石见两位，正是因为无法决断，才请夫人示下，所以夫人的话是答非所问。不过阿霜慑于主人的威严，遂原封不动地去告知二人。阿霜去厨房后，夫人又在圣母玛利亚的画像前“闹死，闹死”地祈祷。有个新来的侍女阿梅忍不住笑出声来，没想到被狠狠地责罚了一通。</p>
 <p>　　八、少斋、石见二位听了夫人的示下，都感到为难，遂对阿霜说：“若治部少那边提出前述要求，我们便回复说，与一郎公子、与五郎公子（忠兴之子，兴秋）都在东军那边，内记公子（忠兴之子，忠利）如今又在江户做人质，本宅中已经无人可去做人质，也即我们不交出人质。若那边非得索要，我们就说要派人去田边城（舞鹤）请示幽斋老大人（忠兴之父，藤孝），等待老大人裁决。这样办理如何？”夫人让他们二位决断，可是少斋、石见二位的话中，哪有一丝一毫决断？且不说老谋深算的武士，就是一个有寻常判断力的武士，也应当先把秀林院夫人送走，哪怕送到田边城也好，再让我们各自躲藏起来，最后两位负责留守的家臣再拼死守卫府邸。但若是回复什么府中无人可做人质，所以不交，当然立刻便剑拔弩张，我们也会被牵连，那才冤枉极了呢。</p>
 <p>　　九、阿霜又将这番话禀报夫人，夫人没有答话，口中只一个劲儿地念着“闹死，闹死”。后来她终于神色如常，若无其事地说“就这么办吧”。留守的家臣既然没请夫人暂避，她大概也不便说要离开吧。夫人心里一定恼恨少斋和石见没个主意，从那之后，她的心情越发恶劣，凡事都要责骂我们，责骂时还要念《伊曾保物语》，说谁是青蛙啦，谁是狼啦，大家都比去当人质还难受。尤其是我，被比作蜗牛啦、乌鸦啦、猪啦、小龟啦，还有什么棕榈、狗、蝮蛇、野牛、病人等等，骂得我好生懊恼，真是下辈子也忘不了。</p>
-<p>　　十、十四日，澄见又来拜访，再次提到人质的事。秀林院夫人表示，没有三斋大人的许可，无论如何也不同意交人质。于是澄见说，重视三斋大人的意见，的确是贤德女人的做法，但这是细川家的大事，纵然不住进大阪城堡里去，也该搬到隔壁浮田中纳言<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="浮田中纳言指宇喜多秀家，安土桃山时代大名，丰臣政权的重臣，娶前田利家的女儿豪姬为妻。德川家康夺得天下后，被流放八丈岛。
+<p>　　十、十四日，澄见又来拜访，再次提到人质的事。秀林院夫人表示，没有三斋大人的许可，无论如何也不同意交人质。于是澄见说，重视三斋大人的意见，的确是贤德女人的做法，但这是细川家的大事，纵然不住进大阪城堡里去，也该搬到隔壁浮田中纳言<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="浮田中纳言指宇喜多秀家，安土桃山时代大名，丰臣政权的重臣，娶前田利家的女儿豪姬为妻。德川家康夺得天下后，被流放八丈岛。
 ">[6]</span></a></sup>府里去。浮田中纳言的夫人是与一郎公子的大姨姐，三斋大人总不至于责怪，这么办最好不过了。澄见是我最讨厌的老狐狸，但她的这番话倒颇有道理。若是搬到隔壁浮田中纳言府上，第一名声好听，第二我们可以性命无忧，真是再好不过的主意了。</p>
 <p>　　十一、可是夫人说，浮田中纳言虽是亲眷，但自己早就听说，他与治部少乃是一伙，即便搬到他府上，人质依然是人质，因此碍难同意。澄见又反复劝说，费了不少口舌，但夫人丝毫不为所动，澄见的妙计遂化为泡影。当时，夫人举出孔子呀，“伊曾保”呀，橘姬呀，基督呀，不仅有和汉经典，连南蛮国的故事都说到了，夫人如此雄辩，就连口齿伶俐的澄见，似乎也甘拜下风。</p>
 <p>　　十二、这天黄昏，阿霜恍惚望见有个金色十字架从天上落到庭院前的松树梢上，如同梦幻一般。阿霜悲伤地对我说，这大概是什么凶事的前兆。只不过阿霜眼睛近视，胆子又小，平常总是大家取笑的对象，她大概是把明亮的星星看成十字架了，所以她这话实在是靠不住。</p>
 <p>　　十三、十五日，澄见再次登门，重提昨日的事。秀林院夫人说，无论再来说多少次，自己的决心不会改变。澄见很生气，临退下的时候说：“夫人想必十分忧虑，瞧您的模样，像是四十好几了。”夫人大为恼怒，吩咐以后若澄见来拜访，一概不见。这天，夫人又是每隔一刻时辰，便要“奥拉笑”一次。但私底下的交涉眼看已是谈崩了，大家惶惶不安，连阿梅都不笑了。</p>
 <p>　　十四、这天，据说河北石见和稻富伊贺（祐直）又发生了口角。伊贺擅长炮术，其他府中也有他不少弟子，声誉很高。少斋和石见对他有些嫉妒，便时常有所争吵。</p>
 <p>　　十五、这天半夜，阿霜梦见敌人冲杀进来，吓得她心胆俱寒，一边大声呼喊，一边在廊上跑了两三丈远。</p>
-<p>　　十六、十六日巳时<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="上午十点左右。
-">[7]</span></a></sup>许，少斋、石见两人告知阿霜：“治部少方才正式派人来，要我们务必交出夫人，若是不交，他们就要强行上门带人。如此嚣张，岂有此理！我们纵然切腹，也决不交出夫人。但夫人也要有所准备。”当时，少斋不巧正害牙病，由石见代为陈述，而石见又怒气冲冲，那气势似乎连阿霜都要一刀砍死。这些事阿霜都写在她的书里<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="历史上阿霜确有其人，为秀林院夫人的侍女，她的书即有名的《霜女手记》，描写了夫人自杀前后的情形。
+<p>　　十六、十六日巳时<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="上午十点左右。
+">[7]</span></a></sup>许，少斋、石见两人告知阿霜：“治部少方才正式派人来，要我们务必交出夫人，若是不交，他们就要强行上门带人。如此嚣张，岂有此理！我们纵然切腹，也决不交出夫人。但夫人也要有所准备。”当时，少斋不巧正害牙病，由石见代为陈述，而石见又怒气冲冲，那气势似乎连阿霜都要一刀砍死。这些事阿霜都写在她的书里<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="历史上阿霜确有其人，为秀林院夫人的侍女，她的书即有名的《霜女手记》，描写了夫人自杀前后的情形。
 ">[8]</span></a></sup>了。</p>
 <p>　　十七、夫人听阿霜禀报了详情，立即找来与一郎少夫人悄悄商谈。后来我听说，夫人劝与一郎少夫人一起自尽，这实在太可怜了。总而言之，事情到了这个地步，虽说是不得已，但首先是负责留守的家臣没有决断力，将局面弄糟，其次是夫人自己性格刚强，等于加速了死期。可是夫人既然劝说与一郎少夫人自尽，难保不会要我们也陪她一起死。她的心思难以推测，大家越发惴惴不安。就在这时，夫人召唤我们都到她面前去，究竟会有何吩咐，众人十分忐忑。</p>
-<p>　　十八、等我们到了夫人跟前，夫人说，去往那个叫“哈啦一笑<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="葡萄牙语“paraiso”，指天国。
-">[9]</span></a></sup>”的极乐世界的时刻就要到了，心中非常欢喜。但夫人的脸色发青，声音也有点颤抖，可见本是言不由衷。夫人又说：“只不过，你们的归宿是我黄泉路上的障碍，你们没有悟性，不曾皈依天主之门，将来恐怕要下那个‘阴黑庐’<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="葡萄牙语“inferno”，指地狱。
-">[10]</span></a></sup>的地狱，成为魔鬼的饵食。因此从今日起，你们要洗心革面，遵奉天主的教诲。否则，你们都随我一道自尽，我们共同离开这尘世秽土。届时，我会恳求‘爱尔看觑<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="葡萄牙语“aichanjo”，大天使。
+<p>　　十八、等我们到了夫人跟前，夫人说，去往那个叫“哈啦一笑<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="葡萄牙语“paraiso”，指天国。
+">[9]</span></a></sup>”的极乐世界的时刻就要到了，心中非常欢喜。但夫人的脸色发青，声音也有点颤抖，可见本是言不由衷。夫人又说：“只不过，你们的归宿是我黄泉路上的障碍，你们没有悟性，不曾皈依天主之门，将来恐怕要下那个‘阴黑庐’<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="葡萄牙语“inferno”，指地狱。
+">[10]</span></a></sup>的地狱，成为魔鬼的饵食。因此从今日起，你们要洗心革面，遵奉天主的教诲。否则，你们都随我一道自尽，我们共同离开这尘世秽土。届时，我会恳求‘爱尔看觑<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="葡萄牙语“aichanjo”，大天使。
 ">[11]</span></a></sup>’，由‘爱尔看觑’恳请我主耶稣基督，让我等得以拜瞻‘哈啦一笑’的庄严。”我们听了，感动得热泪盈眶，众人异口同声，表示愿意立即皈依天主之门。夫人欣慰道，既然如此，自己的黄泉路上已没有障碍，可以安心上路，毋须我们陪伴了。</p>
 <p>　　十九、接着，夫人给三斋大人和与一郎公子写了书信，两封信都交给阿霜。然后，夫人又给京都的一位格列高利神父写了洋文的信，这封信交给了我。洋文信只有五六行，但夫人花了一刻时辰还多。顺便说一句，我把信送给格列高利神父的时候，有一位日本人修士严肃地说：“通常而言，天主教是禁止自杀的，夫人恐怕难以升入‘哈啦一笑’。不过若是做了‘弥撒’祈祷，使功德弘扬广大，或可免堕入恶道。若做弥撒，请赐银币一枚。”</p>
-<p>　　二十、敌人大约是在亥时<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="晚上十点左右。
+<p>　　二十、敌人大约是在亥时<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="晚上十点左右。
 ">[12]</span></a></sup>攻来的。预定的是由河北石见守府邸的正门，稻富伊贺守后门，小笠原少斋守护内宅。听到敌人到来，秀林院夫人派阿梅去召唤与一郎少夫人，但少夫人早已躲藏起来，房间里空空如也。我们都松了一口气，但夫人十分愤慨，对我们说：“我生来以在山崎会战中与太阁殿下一争天下的惟任将军光秀为父，死后又将以天国中的圣母玛利亚为母，临终之际却因为这平庸小诸侯的女儿，蒙受奇耻大辱，想来实属荒唐！”夫人当时那激烈的神情，至今还如在眼前。</p>
-<p>　　二十一、不一会儿，小笠原少斋身穿藏青线缝缀的铠甲，手提小薙刀，来到了隔壁的侧屋中，预备为夫人承担介错<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="“介错”本意为照料、陪伴，引申为替自杀者承担最后断首事项的人。">[13]</span></a></sup>一任。他的牙痛十分严重，左边脸颊已经肿起，看上去全无勇武气概。少斋禀知夫人道，若是越过夫人居室的门槛，多有惶恐，故而隔着门槛为夫人介错送行，随后自己再切腹自尽。见证夫人临终之任落在了阿霜和我身上，因为这时大家都各自逃命，只剩下了我们两个在。夫人看看少斋，说道“有劳你送我一程”。后来我听阿霜说，夫人自从嫁到细川家之后，除了夫妇、母子之间外，从未看到过男人的脸，像这天见少斋乃是破天荒第一回。少斋在侧屋中两手扶地，说“最后时刻已到”。不过由于他一边脸肿起，口齿变得非常含混，夫人没有听清，便让他大声些。</p>
+<p>　　二十一、不一会儿，小笠原少斋身穿藏青线缝缀的铠甲，手提小薙刀，来到了隔壁的侧屋中，预备为夫人承担介错<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="“介错”本意为照料、陪伴，引申为替自杀者承担最后断首事项的人。">[13]</span></a></sup>一任。他的牙痛十分严重，左边脸颊已经肿起，看上去全无勇武气概。少斋禀知夫人道，若是越过夫人居室的门槛，多有惶恐，故而隔着门槛为夫人介错送行，随后自己再切腹自尽。见证夫人临终之任落在了阿霜和我身上，因为这时大家都各自逃命，只剩下了我们两个在。夫人看看少斋，说道“有劳你送我一程”。后来我听阿霜说，夫人自从嫁到细川家之后，除了夫妇、母子之间外，从未看到过男人的脸，像这天见少斋乃是破天荒第一回。少斋在侧屋中两手扶地，说“最后时刻已到”。不过由于他一边脸肿起，口齿变得非常含混，夫人没有听清，便让他大声些。</p>
 <p>　　二十二、此时，一个年轻武士身穿葱黄线缝缀的铠甲，手提长刀，冲到了侧屋，禀报说稻富伊贺叛变，敌人从后门涌入，请夫人速作决断。夫人用右手利索地挽起头发，显出慨然赴死的气概。也许是见到年轻武士感到害羞吧，夫人忽然脸上飞红，红晕一直染到了耳朵根。我在一生之中，还从未像此时这样，感到夫人的容貌竟是如此美丽。</p>
 <p>　　二十三、我们走出大门时，府邸已经起火。大门外，很多人聚集在火光中，但那并非敌人，而是来围观火势的人。而且，在夫人自尽之前，敌人已经带着稻富伊贺撤走了。这些都是我事后听说的。秀林院夫人临终的情形，大致如上所述。</p>
 <p align="right">作者：芥川龙之介（1923年12月） 译者：赵玉皎</p>
@@ -638,7 +664,7 @@
 
  
 
-<script async src="/js/app.js?v=1656329731256"></script>
+<script async src="/js/app.js?v=1689176553793"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
@@ -651,6 +677,48 @@
 
 
 
+
+
+    <!-- 全局音乐播放器 -->
+    <div class="aplayer" 
+        data-id="1377353535" 
+        data-server="netease" 
+        data-type="song" 
+        data-fixed="true" 
+        data-mini="true" 
+        data-autoplay="true" 
+        data-order="list" 
+        data-volume="0.3" 
+        data-theme="#1da496" 
+        data-preload="auto" 
+        style="z-index:9999;height:0px" >
+    </div>
+    <style>
+        .aplayer.aplayer-fixed .aplayer-lrc{
+            display: none;
+        }
+    </style>
+
 </body>
+
+<!-- 地狱通信，不能放在head头部，因为会造成执行时需要的元素没渲染。应该还有其它解决方案，但暂且这样吧 -->
+<script>
+    var d = new Date();
+    var h = d.getHours();
+    var dytx = document.getElementById('dytx');
+    //console.log(dytx)
+    if(h == 0){
+        console.log('dytx')
+        dytx.style.visibility = 'visible';	// 显示元素
+        dytx.style.color = '#f00';
+        dytx.style.fontWeight = '800';
+        //dytx.style.display = 'inline';	// 以行内样式显示
+    }else{
+        console.log('no dytx')
+        dytx.style.visibility = 'hidden';	// 隐藏元素
+        //dytx.style.display = 'none';	// 隐藏选择的元素
+    }
+</script>
+
 
 </html>

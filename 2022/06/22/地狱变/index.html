@@ -11,7 +11,7 @@
     
     <!-- 图标，好恶心啊，应该放在下面一行的上面 -->
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/DeltaPainS/images/favicon.png" type="image/png" />
-    <div id="binft" style="font-size: 20px;margin: 11px 0;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
+    <div id="binft" style="font-size: 11px;margin: 11px 0;margin-left: 55px;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
 </head>
 
     <meta name="description" content="地狱变 从那之后，至少在堀川府里，几乎再无人说良秀的坏话。因为看到那座屏风的人，无论平时多么厌恶良秀，都不可思议地被那庄严的心境所震撼，仿佛身临其境一般，感受到炎热地狱的大苦难。  一　　像堀川大人[1]这样的人物，固然是前无古人，恐怕后世也不会再有第二位了。有传言说，大人诞生前，母夫人曾梦见大威德明王出现在自己枕前，总之，他生来便非比寻常。因此，大人的所作所为，没有一件不出乎我们这等人的意料。就">
@@ -24,9 +24,9 @@
 <meta property="article:published_time" content="2022-06-22T03:47:29.000Z">
 <meta property="article:modified_time" content="2022-06-22T08:23:51.855Z">
 <meta property="article:author" content="DeltaPainS">
-<meta property="article:tag" content="短篇小说">
 <meta property="article:tag" content="芥川龙之介">
 <meta property="article:tag" content="日本作家">
+<meta property="article:tag" content="短篇小说">
 <meta name="twitter:card" content="summary">
     
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
@@ -34,13 +34,13 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1656329731382">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1689176553863">
     
-    <link rel="stylesheet" href="/css/style.css?v=1656329731382">
+    <link rel="stylesheet" href="/css/style.css?v=1689176553863">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1656329731382">
+            <link rel="stylesheet" href="/custom.css?v=1689176553863">
         
     
 
@@ -57,6 +57,23 @@
     <!-- Live2D -->
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
     <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <style>
+        #waifu{
+            left: 80px;
+        }
+        #live2d{
+            width: 255px;
+            height: 255px;
+        }
+        #waifu-tool {
+            color: #aaa;
+            opacity: 0;
+            position: absolute;
+            right: -5px;
+            top: 50px;
+            transition: opacity 1s;
+        }
+    </style>
 
     <!--浏览器搞笑标题-->
     <script type="text/javascript" src="\js\FunnyTitle.js"></script>
@@ -71,14 +88,6 @@
 
     <!-- 在线联系 -->
     
-        <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/43cf9cc9.js","daovoice")</script>
-        <script>
-            daovoice('init', {
-            app_id: "43cf9cc9"
-            });
-            daovoice('update');
-        </script>
-    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HMECE6TL8"></script>
@@ -89,6 +98,18 @@
 
         gtag('config', 'G-3HMECE6TL8');
     </script>
+
+    <!-- 新版百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0dcc380cfe33d140cafe34e7cbd81a95";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
 
     <!-- 样式一（鼠标点击更换样式） -->
     
@@ -105,6 +126,11 @@
 
     <!-- 不蒜子 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    <!-- 全局音乐播放器 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -127,8 +153,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>37</div>
-        <div><span>标签</span>21</div>
+        <div><span>文章</span>178</div>
+        <div><span>标签</span>28</div>
         <div><span>分类</span>7</div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
@@ -314,50 +340,50 @@
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/">分类1</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/佛教/">佛教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/">分类1的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/分类1的子分类的子分类/">分类1的子分类的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/">分类2</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/分类2的子分类/">分类2的子分类</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/">宗教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/文学/">文学</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/">社会</a>
+          <span class="category-list-count">4</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/索引/">索引</a>
+          <span class="category-list-count">5</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/">艺术</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/诸相/">诸相</a>
+          <span class="category-list-count">4</span>
         </li>
 
         
@@ -372,12 +398,12 @@
         
   <div class="nexmoe-widget-wrap">
     <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
-      <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 15px;">日本作家</a> <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 10px;">标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE2/" style="font-size: 10px;">标签2</a> <a href="/tags/%E6%A0%87%E7%AD%BE3/" style="font-size: 10px;">标签3</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 20px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 15px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">中篇小说</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BD%9B%E6%95%99%E7%BB%8F%E5%85%B8/" style="font-size: 12px;">佛教经典</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/" style="font-size: 10px;">卡夫卡</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%A5%A5%E5%9C%B0%E5%88%A9%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">奥地利作家</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E5%BF%83%E7%BB%8F/" style="font-size: 10px;">心经</a> <a href="/tags/%E6%95%A3%E6%96%87/" style="font-size: 14px;">散文</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 20px;">日本作家</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 16px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 18px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E8%B0%B7%E5%B4%8E%E6%B6%A6%E4%B8%80%E9%83%8E/" style="font-size: 10px;">谷崎润一郎</a> <a href="/tags/%E9%87%91%E5%88%9A%E7%BB%8F/" style="font-size: 10px;">金刚经</a> <a href="/tags/%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">长篇小说</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
     </div>
     
       <script>
         var maxTagcloud = parseInt(17);
-        var tags_length = parseInt(21);
+        var tags_length = parseInt(28);
         var tags_arr = [];
         for(var i = 0; i < tags_length; i++){
           tags_arr.push(i);
@@ -442,7 +468,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">文章归档</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">37</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2099/">2099</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a><span class="archive-list-count">53</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">124</span></li></ul>
     </div>
   </div>
 
@@ -457,23 +483,23 @@
       <ul>
         
           <li>
-            <a href="/2022/06/26/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
+            <a href="/2099/12/31/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
           </li>
         
           <li>
-            <a href="/2022/06/26/%E4%B8%80%E4%B8%AA%E5%82%BB%E5%AD%90%E7%9A%84%E4%B8%80%E7%94%9F/">一个傻子的一生</a>
+            <a href="/2023/03/20/%E9%82%AA%E5%AE%97%E9%97%A8/">邪宗门</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E6%B2%B3%E7%AB%A5/">河童</a>
+            <a href="/2023/03/20/%E8%B7%AF%E4%B8%8A/">路上</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E7%82%B9%E9%AC%BC%E8%96%84/">点鬼薄</a>
+            <a href="/2023/01/23/%E6%9A%97%E4%B8%AD%E9%97%AE%E7%AD%94/">暗中问答</a>
           </li>
         
           <li>
-            <a href="/2022/06/24/%E5%AD%94%E4%B9%99%E5%B7%B1/">孔乙己</a>
+            <a href="/2023/01/23/%E4%B8%89%E6%89%87%E7%AA%97%E5%AD%90/">三扇窗子</a>
           </li>
         
       </ul>
@@ -484,13 +510,13 @@
         
     
     <!-- 网易云外链 -->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe>
+    <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe> -->
 </aside>
     <div class="nexmoe-copyright">
-        &copy; 2022 DeltaPainS
+        &copy; 2023 DeltaPainS
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
+        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><a id="dytx" target="_blank" href="https://freenom.painliudao.tk/">地狱通信</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
     </div>
 </div><!-- .nexmoe-drawer -->
     </div>
@@ -523,17 +549,17 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="地狱变"><a href="#地狱变" class="headerlink" title="地狱变"></a>地狱变</h1><blockquote>
 <p>从那之后，至少在堀川府里，几乎再无人说良秀的坏话。因为看到那座屏风的人，无论平时多么厌恶良秀，都不可思议地被那庄严的心境所震撼，仿佛身临其境一般，感受到炎热地狱的大苦难。</p>
 </blockquote>
-<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>　　像堀川大人<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="指在堀川（京都西部的地名）拥有府邸的大臣。日本历史上被称为“堀川大人”的人物有藤原基经、藤原兼通、藤原显光、藤原赖宗等，均为摄关家藤原氏的显贵。文中的堀川大人为虚构人物，这一称呼的含义是他的身份大概是权倾天下的摄政大臣。
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>　　像堀川大人<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="指在堀川（京都西部的地名）拥有府邸的大臣。日本历史上被称为“堀川大人”的人物有藤原基经、藤原兼通、藤原显光、藤原赖宗等，均为摄关家藤原氏的显贵。文中的堀川大人为虚构人物，这一称呼的含义是他的身份大概是权倾天下的摄政大臣。
 ">[1]</span></a></sup>这样的人物，固然是前无古人，恐怕后世也不会再有第二位了。有传言说，大人诞生前，母夫人曾梦见大威德明王出现在自己枕前，总之，他生来便非比寻常。因此，大人的所作所为，没有一件不出乎我们这等人的意料。就说堀川府邸的规模吧，那是何等宏大，何等壮丽！大人的胆魄终究不是凡庸之人所能企及的。有人因此议论纷纷，把大人的品性与秦始皇、隋炀帝做比较，那可真是俗谚所说的“盲人摸象”。大人的心思绝非仅仅使自己荣华荣耀，他思虑更多的是底下人的事，那恢弘的度量正可谓是“与天下同乐”。</p>
-<p>　　大人既然是这样的人物，所以当他遇到二条大宫的百鬼夜行<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="百鬼夜行是各种鬼怪在深夜中到处游走。二条大宫是旧地名，位于京都的朱雀门以东，传说常有灵怪出没。
-">[2]</span></a></sup>时，全然不当回事。而且，在那座因仿造了陆奥国盐釜风景而著名的东三条河原院中，传说源融左大臣每夜都要显灵，可就是那位左大臣的幽灵，在被堀川大人叱责之后，也隐去了踪迹<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="源融（822—895），平安时代前期的贵族，官至左大臣。位于东三条的河原院本是他的府邸，仿造了东北的盐釜地方的风景，每天运30石海水来烧盐取乐。源融死后，河原院成为宇多法皇的别墅。传说源融在此显灵，被宇多法皇所逼退。
+<p>　　大人既然是这样的人物，所以当他遇到二条大宫的百鬼夜行<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="百鬼夜行是各种鬼怪在深夜中到处游走。二条大宫是旧地名，位于京都的朱雀门以东，传说常有灵怪出没。
+">[2]</span></a></sup>时，全然不当回事。而且，在那座因仿造了陆奥国盐釜风景而著名的东三条河原院中，传说源融左大臣每夜都要显灵，可就是那位左大臣的幽灵，在被堀川大人叱责之后，也隐去了踪迹<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="源融（822—895），平安时代前期的贵族，官至左大臣。位于东三条的河原院本是他的府邸，仿造了东北的盐釜地方的风景，每天运30石海水来烧盐取乐。源融死后，河原院成为宇多法皇的别墅。传说源融在此显灵，被宇多法皇所逼退。
 ">[3]</span></a></sup>。大人有这般的威光，也就难怪当时京城里的男女老幼，都把大人当作佛菩萨转世一般虔敬有加。记得有一次，大人参加大内的梅花宴归来，拉车的牛脱了缰绳，碰伤了一位过路老人，那老人反而双手合十，念叨着能被大人的牛撞到，真乃三生有幸。</p>
-<p>　　因此，终大人一世，能流传后世的话题可说是要多少有多少。比如大人蒙天皇赏赐、大飨宴的赠礼是三十匹白马啦，命自己宠爱的童子站立在长良桥的桥柱上啦，让一位有华佗之术的震旦僧人切除自己腿上的疮啦……一一数说起来，可没个尽头。不过，在众多逸事之中，再没有一件比如今府邸里珍藏的那座地狱变<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="即地狱变相图，描绘亡灵在地狱中遭受恐怖折磨，旨在劝善抑恶的佛教绘画。
+<p>　　因此，终大人一世，能流传后世的话题可说是要多少有多少。比如大人蒙天皇赏赐、大飨宴的赠礼是三十匹白马啦，命自己宠爱的童子站立在长良桥的桥柱上啦，让一位有华佗之术的震旦僧人切除自己腿上的疮啦……一一数说起来，可没个尽头。不过，在众多逸事之中，再没有一件比如今府邸里珍藏的那座地狱变<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="即地狱变相图，描绘亡灵在地狱中遭受恐怖折磨，旨在劝善抑恶的佛教绘画。
 ">[4]</span></a></sup>屏风的由来更可怕的故事了。就连平日里镇定自若的大人，在那个时刻，也大为震惊。更不必说我们这些在一旁侍奉的人，简直就是魂飞魄散。我侍奉大人二十年来，像那般凄厉悲惨的场景，再没见过第二回。</p>
 <p>　　不过，在讲这个故事之前，先得说说那座地狱变屏风的创作者——画师良秀的事儿。</p>
 <br/>
 
-<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>　　提到良秀，或许现在还有人记得他。当时良秀是名重一时的画师，论起绘画的才华，无人能出其右。发生那事儿的时候，他已经过了五十的关口，身材矮小，瘦骨伶仃，看上去像个坏心眼的老头。来府里拜谒大人时，他总是穿一件丁香色<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="以丁香花苞和草木灰汁、铁为染料而染成的浅黄褐色。
+<h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>　　提到良秀，或许现在还有人记得他。当时良秀是名重一时的画师，论起绘画的才华，无人能出其右。发生那事儿的时候，他已经过了五十的关口，身材矮小，瘦骨伶仃，看上去像个坏心眼的老头。来府里拜谒大人时，他总是穿一件丁香色<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="以丁香花苞和草木灰汁、铁为染料而染成的浅黄褐色。
 ">[5]</span></a></sup>猎衣，戴着乌布软帽。良秀的人品极为低下，而且不知什么缘故，他的嘴唇红得刺眼，不像个老人，令人联想起野兽之类，怪瘆人的。有人说那是因为他老舔画笔，沾上了红颜料的缘故，谁知道呢。更有些尖嘴薄舌的人，说良秀的形容举止活像个猴子，竟给他起了个诨名叫作“猿秀”。</p>
 <p>　　说到“猿秀”，还有这么个故事。良秀有个独生女儿，年方十五，当时在堀川大人的府中做小侍女，她是个甜美可爱的姑娘，完全不像生身父亲。或许是早早失去母亲的缘故吧，姑娘小小的年纪却心思细腻，聪明灵透，比年长的人还要温柔周到，夫人和众侍女都很喜欢她。</p>
 <p>　　有一次，丹波国献上来一只驯养的小猴子，喜欢恶作剧的公子便给小猴子起名为“良秀”。那小猴子本来模样就够滑稽的，再有这么个名字，府邸里没有一个人不笑的。光是笑倒还罢了，一旦小猴子爬上庭院的松树啦，把房间里的席子弄脏啦，众人就会大叫着良秀良秀，戏弄个不休，以此来取乐。</p>
@@ -552,18 +578,18 @@
 <p>　　“是个孝顺女儿嘛，给她奖赏。”</p>
 <p>　　大人如此吩咐，赏赐姑娘一件红色衣衫。小猴子学着姑娘的模样，恭恭敬敬地把红衣衫举过头顶拜谢，令大人的心情越发愉快。由此可见，大人喜欢良秀的女儿，完全是因为赞赏她疼爱小猴子的孝顺之心，决不是像世间议论的是出于喜爱她的美色。不过传言兴起，也并非全无根由，这且留到后面慢慢说。在这里我只是想说，不管姑娘多么美貌，以大人的为人，是不会对一介画师的女儿起什么念想的。</p>
 <p>　　且说良秀女儿在大人面前争得了体面，她本是个聪慧的姑娘，并不会有什么不妥的举动引起侍女们的嫉妒。相反，自那以后，姑娘和小猴子都受到众人的喜爱，尤其是姑娘几乎是形影不离地陪伴小姐，连小姐出门游赏时也都让她同车而行。</p>
-<p>　　姑娘的事先放在一边，再说说她父亲良秀。虽然小猴子良秀得到了大家的疼爱，可是良秀本人却依然是人见人厌，背地里人们仍叫他“猿秀”。而且不仅堀川府里如此，就连横川的僧都<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="即比睿山的高僧。横川是比睿山延历寺的三大区域之一，僧都为仅次于僧正的僧官。
+<p>　　姑娘的事先放在一边，再说说她父亲良秀。虽然小猴子良秀得到了大家的疼爱，可是良秀本人却依然是人见人厌，背地里人们仍叫他“猿秀”。而且不仅堀川府里如此，就连横川的僧都<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="即比睿山的高僧。横川是比睿山延历寺的三大区域之一，僧都为仅次于僧正的僧官。
 ">[6]</span></a></sup>阁下，一提到良秀，就仿佛看见妖魔似的，厌恨得脸色都要变化。（不过，有人说那是因为良秀把僧都阁下的行为画成了滑稽画的缘故，这都是下等人的传言，当然不是那么回事。）总之，不管让谁说，良秀这人的坏名声都没什么两样。也有人不说他的坏话，但那仅限于两三个画师同行，或者是只见过他的画、不晓得他的品性的人。</p>
 <p>　　实际上，良秀这人不光是模样卑琐，他还有好些更招人嫌恶的毛病，所以只能说他全是自作自受。</p>
 <br/>
 
-<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>　　说起良秀的毛病，那就是他吝啬、刻薄、不知羞耻、懒惰、贪婪——其中最为甚者，就是自高自大、傲慢无礼，总是把本朝第一画师的幌子挂在脸上。若单单是画艺上的事倒还罢了，可那人的逞强好胜，简直把世间的习俗惯例全不放在眼里。据一个跟随良秀多年的徒弟说，有一天府里那位著名的桧垣巫女<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="巫女是侍奉神灵的未婚女子，从事神舞、传达神谕等。
+<h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>　　说起良秀的毛病，那就是他吝啬、刻薄、不知羞耻、懒惰、贪婪——其中最为甚者，就是自高自大、傲慢无礼，总是把本朝第一画师的幌子挂在脸上。若单单是画艺上的事倒还罢了，可那人的逞强好胜，简直把世间的习俗惯例全不放在眼里。据一个跟随良秀多年的徒弟说，有一天府里那位著名的桧垣巫女<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="巫女是侍奉神灵的未婚女子，从事神舞、传达神谕等。
 ">[7]</span></a></sup>幽灵附体，降下了可怕的谕旨，可良秀却一边心不在焉地听着，一边拿起手头的笔墨，仔仔细细地画出了巫女那张吓人的脸。或许幽灵作祟的事，在他看来只不过是欺骗小孩子的把戏吧。</p>
 <p>　　良秀就是这么一个人，所以他画吉祥天女的时候，摹写的是一个卑贱妓女的脸，画不动明王的时候，参照的又是一个无赖汉的模样。如此这般，他做出种种不敬之举，可当你责问他时，他又大言不惭地说什么“我良秀画的神佛，若降罪给我良秀，岂非咄咄怪事”？因此，就连徒弟们也无可奈何，其中有不少人害怕以后会遭报应，匆匆离他而去。一言以蔽之，他无比狂妄自大，总以为天底下再没有胜过自己的人了。</p>
-<p>　　说到良秀在画艺上达到了多高造诣，那倒是毋庸多言的。只不过，就连他的画也怪，他在运笔和用色上与别的画师截然不同，不少和他交恶的画师评论说那简直是邪门歪道。据那些人说，像川成、金冈<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="川成即百济川成，金冈即巨势金冈，均为平安时代前期的名画家。
-">[8]</span></a></sup>等古代名家的画作，都有些优雅美丽的传闻，比如板门上的梅花每逢月夜便会散发清香啦，听到屏风上画的公卿贵人们吹笛的声音啦。可是良秀的画作却只有奇异可怕的传闻，比如他在龙盖寺大门上画的那幅《五趣生死图》<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="描绘善恶的轮回转生的佛教绘画。
+<p>　　说到良秀在画艺上达到了多高造诣，那倒是毋庸多言的。只不过，就连他的画也怪，他在运笔和用色上与别的画师截然不同，不少和他交恶的画师评论说那简直是邪门歪道。据那些人说，像川成、金冈<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="川成即百济川成，金冈即巨势金冈，均为平安时代前期的名画家。
+">[8]</span></a></sup>等古代名家的画作，都有些优雅美丽的传闻，比如板门上的梅花每逢月夜便会散发清香啦，听到屏风上画的公卿贵人们吹笛的声音啦。可是良秀的画作却只有奇异可怕的传闻，比如他在龙盖寺大门上画的那幅《五趣生死图》<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="描绘善恶的轮回转生的佛教绘画。
 ">[9]</span></a></sup>，有人半夜从门下经过时，听到了天人的叹息声和啜泣声，这还不算，甚至有人嗅到了尸体腐烂的臭气。大人吩咐他为侍女们画像，可是被他画过的侍女，都在三年之内得了失魂之症而死。说句不好听的，这就是良秀的画堕入邪道的最好证据。</p>
-<p>　　总之，正如前面所说的，良秀就是这么一个不守常规、傲慢无礼的人，可是他反而以此为荣。有一次大人戏谑地说“看来你就喜欢丑恶之物”，他咧开那与年纪不般配的红嘴唇，怪模怪样地笑着，得意洋洋地答道：“正是，平庸的画师不会懂得丑恶之物中的美。”再怎么是本朝第一画师，又岂能在大人面前如此出言不逊？前面说过的那个徒弟，私下里给师傅起了个诨名叫作“智罗永寿”，以讥讽他的傲慢，这也是难怪的。如您所知，“智罗永寿<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="《今昔物语集》第20卷中有一篇《震旦天狗智罗永寿渡海来本朝故事》，讲的是一只自不量力的天狗智罗永寿，千里迢迢从中国来到日本，与日本的僧人比试法力，结果大吃苦头。
+<p>　　总之，正如前面所说的，良秀就是这么一个不守常规、傲慢无礼的人，可是他反而以此为荣。有一次大人戏谑地说“看来你就喜欢丑恶之物”，他咧开那与年纪不般配的红嘴唇，怪模怪样地笑着，得意洋洋地答道：“正是，平庸的画师不会懂得丑恶之物中的美。”再怎么是本朝第一画师，又岂能在大人面前如此出言不逊？前面说过的那个徒弟，私下里给师傅起了个诨名叫作“智罗永寿”，以讥讽他的傲慢，这也是难怪的。如您所知，“智罗永寿<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="《今昔物语集》第20卷中有一篇《震旦天狗智罗永寿渡海来本朝故事》，讲的是一只自不量力的天狗智罗永寿，千里迢迢从中国来到日本，与日本的僧人比试法力，结果大吃苦头。
 ">[10]</span></a></sup>”是古代从震旦来的天狗的名字。</p>
 <p>　　不过，就连良秀——这个目空一切、不可言喻的良秀，身上也有一处有人情味的、充满爱意的所在。</p>
 <br/>
@@ -626,7 +652,7 @@
 <p>　　“怎么样，很老实吧？”</p>
 <p>　　“这是什么鸟？我还没见过呢。”</p>
 <p>　　说着，弟子有点发怵地打量这只长着耳朵、猫一样的鸟儿。良秀像平常一样，依然是一副嘲笑的口吻，说道：</p>
-<p>　　“什么，没见过？城里长大的孩子就是这样，真没办法。这是两三天前鞍马<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="鞍马为地名，指的是京都市北部的鞍马山，山中有鞍马寺，据说为鉴真的弟子鉴祯和尚于公元770年创建，为平安京北面的镇护之寺。
+<p>　　“什么，没见过？城里长大的孩子就是这样，真没办法。这是两三天前鞍马<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="鞍马为地名，指的是京都市北部的鞍马山，山中有鞍马寺，据说为鉴真的弟子鉴祯和尚于公元770年创建，为平安京北面的镇护之寺。
 ">[11]</span></a></sup>的猎人送给我的猫头鹰。不过，这么老实的倒很少见。”</p>
 <p>　　一边说着，良秀慢慢地抬起手，轻轻地从下向上抚摸着刚吃完肉的猫头鹰的背。就在这时，鸟儿突然发出一声锐利的短啸，猛然从桌子上飞了起来，张开两只利爪，冲着弟子的脸疾扑过来。若不是弟子慌忙用袖子挡住脸，肯定要被抓出好几处伤。弟子“啊”地惊叫着，挥动袖子驱赶猫头鹰，猫头鹰却更加气势汹汹，尖啸着再次朝他扑去——弟子忘记了还在师傅面前，忽而站起，忽而跌坐，忽而防御，忽而驱赶，在狭小的屋子里团团乱转，狼狈奔逃。怪鸟则忽高忽低，紧追不放，瞅着空子便蓦地朝他眼睛扑去。鸟儿啪嗒啪嗒地猛力扇动翅膀，那声音勾连起某些怪异的气氛，比如落叶的气息、瀑布的水沫，或是猿猴藏在山洞里的果实发酵后那热烘烘的酸腐味……令人毛骨悚然。据弟子说，他觉得那幽暗的油灯光仿佛朦胧的月光，师傅的屋子好像遥远深山里弥漫着妖气的山谷，心里害怕极了。</p>
 <p>　　可是令弟子恐惧的并不仅是被猫头鹰袭击，更令他毛发倒竖的，是师傅良秀冷冷地看着眼前的骚动，徐徐展开画纸，舔了舔画笔，开始摹写姑娘般的少年被鬼鸟折磨时那凄惨的模样。弟子说，他一见这番情景，心头顿时袭来一股难以言表的恐怖，那一瞬间，他真的担心自己会被师傅害死。</p>
@@ -669,7 +695,7 @@
 <p>　　“那么，你画不出来的，究竟是什么？”</p>
 <br/>
 
-<h2 id="十五"><a href="#十五" class="headerlink" title="十五"></a>十五</h2><p>　　“在下打算在屏风的正中央，画一辆蒲葵叶牛车<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="蒲葵叶牛车是日本古代的一种带篷牛车，将蒲葵叶切成细条晒干后葺于车篷上，为四品以上的贵族乘坐。
+<h2 id="十五"><a href="#十五" class="headerlink" title="十五"></a>十五</h2><p>　　“在下打算在屏风的正中央，画一辆蒲葵叶牛车<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="蒲葵叶牛车是日本古代的一种带篷牛车，将蒲葵叶切成细条晒干后葺于车篷上，为四品以上的贵族乘坐。
 ">[12]</span></a></sup>从半空落下。”说到这里，良秀目光锐利地直视起大人的脸。我早就听说过，一旦谈起绘画来，这人便会像疯癫了一般，的确，此时他的眼神里就有一种可怕的东西。</p>
 <p>　　“车上有一位艳丽的贵妇，在熊熊烈火之中，她黑发散乱，痛苦地挣扎。她的脸被浓烟熏呛，皱着眉头，仰望着半空中的车篷。或许，她的手还撕扯着车帘，想要挡住雨点般洒落的火星。牛车周围有十几二十只凶恶的鸷鸟，张着大嘴鸣叫，纷纷绕着牛车盘旋。——唉，可是，那牛车上的贵妇，在下却怎么也画不出来。”</p>
 <p>　　“那么……你要怎样？”</p>
@@ -702,7 +728,7 @@
 <p>　　大人再次顿住了话头，朝身边的侍从们使了个眼色。接下来，大人的语气忽然阴沉下来：“车内绑着一个犯罪的侍女，因此，若是放火烧车，那女子必定被烧得骨焦肉烂，死得痛苦无比。你要画那地狱变屏风，这是不可再得的范本。雪一样的肌肤被烧焦，乌黑的秀发灰飞烟灭，你可仔细看着，休要错过了。”</p>
 <p>　　大人第三次缄口，似乎思索着什么，随后，他晃动着肩膀，无声地笑了起来：</p>
 <p>　　“此等景观可谓三生难遇，我也要在此一睹为快。来人，揭开帘子，让良秀看看里面的女子。”</p>
-<p>　　大人一声吩咐，便有一名杂役高举着火把，大步流星地走到牛车前，一把掀起了车帘。松明噼噼啪啪地爆着火星，红红的火焰摇晃了一下，赫然照进狭窄的车厢，车厢里的一切都清清楚楚。车内用铁链残忍地绑着一名女子，她便是……唉，我若是看错了该多好！那女子身穿华丽灿烂的刺绣樱花叠色唐衣<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="唐衣是平安时代贵族女性的礼服。日本古代贵族女性在穿着两重或多重衣装时有颜色上的多种固定搭配，如“樱花叠色”是内层为紫红色、外层为白色；“荻叠色”则以天蓝色为里，以暗红色为表。
+<p>　　大人一声吩咐，便有一名杂役高举着火把，大步流星地走到牛车前，一把掀起了车帘。松明噼噼啪啪地爆着火星，红红的火焰摇晃了一下，赫然照进狭窄的车厢，车厢里的一切都清清楚楚。车内用铁链残忍地绑着一名女子，她便是……唉，我若是看错了该多好！那女子身穿华丽灿烂的刺绣樱花叠色唐衣<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="唐衣是平安时代贵族女性的礼服。日本古代贵族女性在穿着两重或多重衣装时有颜色上的多种固定搭配，如“樱花叠色”是内层为紫红色、外层为白色；“荻叠色”则以天蓝色为里，以暗红色为表。
 ">[13]</span></a></sup>，乌黑光润的秀发长长地垂下，斜插着的黄金钗荧光闪烁，她的妆扮虽然不同了，但那娇小的身姿，白皙的颈项，还有那谦恭温良、透出几分凄然的侧脸，分明便是良秀的女儿。我差点惊叫起来。</p>
 <p>　　就在这时，我对面的侍卫腾地站起身，一手按住刀柄，严厉地紧紧瞪视着良秀。我惊诧望去，原来良秀看到这幅场面，大概已经半疯癫了，他本来跪坐在地上，忽然一跃而起，向前伸着双臂，无意识地朝牛车奔去。不巧的是，如前面所说，良秀隔得太远，又身在暗处，我看不清他的脸色。但这只有短短的一瞬间，片刻之后，良秀那面无人色的脸，不，是良秀那仿佛被某种无形力量提升到空中的身影，突然冲破了昏暗，鲜明地浮现在我的眼前。此时，只听得大人一声令下：</p>
 <p>　　“点火！”</p>
@@ -716,14 +742,14 @@
 <br/>
 
 <h2 id="十九"><a href="#十九" class="headerlink" title="十九"></a>十九</h2><p>　　可是，众人看见那小猴子，只不过一瞬间的工夫。泥金画般的火星一阵迸溅后，火焰腾空而起，莫要说小猴子，就是姑娘的身影也隐没在了黑烟深处。庭院中央唯有一辆火焰车发出凄厉的声响，呼呼燃烧。不，那沸腾着直冲星空的骇人火焰，与其说是火焰车，莫如说是火焰柱更妥贴些。</p>
-<p>　　再说在火焰柱前凝然伫立的良秀吧。多么不可思议啊！方才还饱受地狱苦难折磨的良秀，此时，他那满是皱纹的脸上却洋溢着难以形容的光辉——那是心醉神迷的法悦<sup id="fnref:14"><a href="#fn:14" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="法悦本指聆听佛法后体味到身心安宁的无上欢喜，引申为沉醉于艺术作品等至美境地时的陶然心绪。
+<p>　　再说在火焰柱前凝然伫立的良秀吧。多么不可思议啊！方才还饱受地狱苦难折磨的良秀，此时，他那满是皱纹的脸上却洋溢着难以形容的光辉——那是心醉神迷的法悦<sup id="fnref:14"><a href="#fn:14" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="法悦本指聆听佛法后体味到身心安宁的无上欢喜，引申为沉醉于艺术作品等至美境地时的陶然心绪。
 ">[14]</span></a></sup>的光辉。他大概忘记了身在大人的座前，双臂紧紧地抱在胸前，一动不动。呈现在他眼中的，并不是女儿惨死的场面，而是美丽的火焰的颜色，以及在火中痛苦挣扎的女子，这景象使他无比愉悦。</p>
 <p>　　而且，令人难以理解的，并不仅是良秀欣喜地观看唯一女儿的惨死。此外，不知什么缘故，此时的良秀身上，还有一种奇异的威严感，那不是人所能拥有的，而像是梦中雄狮的震怒一般。因此，那被突如其来的火势惊扰、啼叫着盘旋飞舞的无数夜鸟，甚至不敢接近良秀的软乌帽。或许，即便这些不晓事的鸟儿，也看到了悬于良秀头顶的、如佛顶圆光般不可思议的威严吧。</p>
 <p>　　鸟雀尚且如此，我们自不必说了。连杂役们也屏息凝气，内心震撼不已，充盈着异样的随喜之心，仿佛瞻仰开眼的大佛一般，目不转睛地望着良秀。那漫天飞舞的、发出轰鸣之声的火焰，以及为此景象神魂颠倒、凝然伫立的良秀——这是何等庄严，何等欢喜！可是，唯有高坐在檐廊上的大人，好像变了个人似的，脸色青白不定，口角冒出白沫，双手紧紧抓着紫色宽袴的膝盖，如口渴的野兽般喘息着……</p>
 <br/>
 
 <h2 id="二十"><a href="#二十" class="headerlink" title="二十"></a>二十</h2><p>　　那一夜大人在融雪山庄焚烧牛车的事，不知被谁传到了外面，惹得世间物议纷纷。先说，大人为何要烧死良秀的女儿？关于这一点，最多的说法是大人的爱恋之情未能遂愿，由爱生恨所致。但大人的本意，其实在于惩罚良秀那为了完成屏风画、不惜烧车杀人的邪恶画师本性。这一点毋庸置疑。实际上，在下曾经听大人亲口这么说过。</p>
-<p>　　另外，良秀即便看到女儿被烧死在自己眼前，仍要画那屏风，这种铁石心肠也惹得人们议论不休。其中，甚至有人骂他为了绘画忘记父女亲情，是个人面兽心的怪物。那位横川僧都便持此种见解，他经常说，“无论对一技一能如何精通，做人若是不懂得五常<sup id="fnref:15"><a href="#fn:15" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="五常指儒学中认为人应当遵守的五种道德规范，即仁、义、礼、智、信。一说为父子之亲，君臣之义，夫妇之别，长幼之序，朋友之信。">[15]</span></a></sup>的道理，必会堕入地狱。”</p>
+<p>　　另外，良秀即便看到女儿被烧死在自己眼前，仍要画那屏风，这种铁石心肠也惹得人们议论不休。其中，甚至有人骂他为了绘画忘记父女亲情，是个人面兽心的怪物。那位横川僧都便持此种见解，他经常说，“无论对一技一能如何精通，做人若是不懂得五常<sup id="fnref:15"><a href="#fn:15" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="五常指儒学中认为人应当遵守的五种道德规范，即仁、义、礼、智、信。一说为父子之亲，君臣之义，夫妇之别，长幼之序，朋友之信。">[15]</span></a></sup>的道理，必会堕入地狱。”</p>
 <p>　　不过，过了大约一个月，地狱变屏风终于完成，良秀立即将屏风送到堀川府里，恭请大人赏鉴。正巧，当时那位僧都也在场，他看了一眼屏风，那漫天狂卷的恐怖火海大概令他甚为震惊。之前僧都一直阴沉着脸睥睨良秀，看到画后却不由自主地拍打着膝盖，赞道：“画得好！”听了僧都的话，大人苦笑了一下，那情景在下至今尚未忘记。</p>
 <p>　　从那之后，至少在堀川府里，几乎再无人说良秀的坏话。因为看到那座屏风的人，无论平时多么厌恶良秀，都不可思议地被那庄严的心境所震撼，仿佛身临其境一般，感受到炎热地狱的大苦难。</p>
 <p>　　但那时，良秀却已经不是此世间之人了。在屏风画完成的翌日夜间，他便缢死在自家的房梁上。唯一的女儿先他而亡，他怕是心中再难安稳、不堪独活于世间了吧。良秀的尸骸便葬在他房舍的原址上，至今尚在，只不过那小小的石碑，其后经历了几十年的风吹雨打，定然早已经满布青苔，如同一座年代久远的无名荒冢。</p>
@@ -830,7 +856,7 @@
 
  
 
-<script async src="/js/app.js?v=1656329731390"></script>
+<script async src="/js/app.js?v=1689176553869"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
@@ -843,6 +869,48 @@
 
 
 
+
+
+    <!-- 全局音乐播放器 -->
+    <div class="aplayer" 
+        data-id="1377353535" 
+        data-server="netease" 
+        data-type="song" 
+        data-fixed="true" 
+        data-mini="true" 
+        data-autoplay="true" 
+        data-order="list" 
+        data-volume="0.3" 
+        data-theme="#1da496" 
+        data-preload="auto" 
+        style="z-index:9999;height:0px" >
+    </div>
+    <style>
+        .aplayer.aplayer-fixed .aplayer-lrc{
+            display: none;
+        }
+    </style>
+
 </body>
+
+<!-- 地狱通信，不能放在head头部，因为会造成执行时需要的元素没渲染。应该还有其它解决方案，但暂且这样吧 -->
+<script>
+    var d = new Date();
+    var h = d.getHours();
+    var dytx = document.getElementById('dytx');
+    //console.log(dytx)
+    if(h == 0){
+        console.log('dytx')
+        dytx.style.visibility = 'visible';	// 显示元素
+        dytx.style.color = '#f00';
+        dytx.style.fontWeight = '800';
+        //dytx.style.display = 'inline';	// 以行内样式显示
+    }else{
+        console.log('no dytx')
+        dytx.style.visibility = 'hidden';	// 隐藏元素
+        //dytx.style.display = 'none';	// 隐藏选择的元素
+    }
+</script>
+
 
 </html>

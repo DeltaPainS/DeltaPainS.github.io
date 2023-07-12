@@ -11,7 +11,7 @@
     
     <!-- 图标，好恶心啊，应该放在下面一行的上面 -->
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/DeltaPainS/images/favicon.png" type="image/png" />
-    <div id="binft" style="font-size: 20px;margin: 11px 0;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
+    <div id="binft" style="font-size: 11px;margin: 11px 0;margin-left: 55px;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
 </head>
 
     <meta name="description" content="鼻子 人们的心里有两种互相矛盾的感情。当然，没有人对旁人的不幸不寄予同情的。但是当那个人设法摆脱了不幸之后，这方面却又不知怎地觉得若有所失了。说得夸大一些，甚至想让那个人再度陷入以往的不幸。于是，虽说态度是消极的，却在不知不觉之间对那个人怀起敌意来了。  　　提到禅智内供[1]的鼻子，池尾一带无人不知，无人不晓。那鼻子有五六寸长，从上嘴唇上方一直垂到下巴颏底下，从鼻根到鼻尖皆是一般粗细，打个比方说">
@@ -24,9 +24,9 @@
 <meta property="article:published_time" content="2022-06-19T06:07:46.000Z">
 <meta property="article:modified_time" content="2022-06-19T07:45:08.251Z">
 <meta property="article:author" content="DeltaPainS">
-<meta property="article:tag" content="短篇小说">
 <meta property="article:tag" content="芥川龙之介">
 <meta property="article:tag" content="日本作家">
+<meta property="article:tag" content="短篇小说">
 <meta name="twitter:card" content="summary">
     
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
@@ -34,13 +34,13 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1656329731450">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1689176553907">
     
-    <link rel="stylesheet" href="/css/style.css?v=1656329731450">
+    <link rel="stylesheet" href="/css/style.css?v=1689176553907">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1656329731450">
+            <link rel="stylesheet" href="/custom.css?v=1689176553907">
         
     
 
@@ -57,6 +57,23 @@
     <!-- Live2D -->
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
     <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <style>
+        #waifu{
+            left: 80px;
+        }
+        #live2d{
+            width: 255px;
+            height: 255px;
+        }
+        #waifu-tool {
+            color: #aaa;
+            opacity: 0;
+            position: absolute;
+            right: -5px;
+            top: 50px;
+            transition: opacity 1s;
+        }
+    </style>
 
     <!--浏览器搞笑标题-->
     <script type="text/javascript" src="\js\FunnyTitle.js"></script>
@@ -71,14 +88,6 @@
 
     <!-- 在线联系 -->
     
-        <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/43cf9cc9.js","daovoice")</script>
-        <script>
-            daovoice('init', {
-            app_id: "43cf9cc9"
-            });
-            daovoice('update');
-        </script>
-    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HMECE6TL8"></script>
@@ -89,6 +98,18 @@
 
         gtag('config', 'G-3HMECE6TL8');
     </script>
+
+    <!-- 新版百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0dcc380cfe33d140cafe34e7cbd81a95";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
 
     <!-- 样式一（鼠标点击更换样式） -->
     
@@ -105,6 +126,11 @@
 
     <!-- 不蒜子 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    <!-- 全局音乐播放器 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -127,8 +153,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>37</div>
-        <div><span>标签</span>21</div>
+        <div><span>文章</span>178</div>
+        <div><span>标签</span>28</div>
         <div><span>分类</span>7</div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
@@ -314,50 +340,50 @@
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/">分类1</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/佛教/">佛教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/">分类1的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/分类1的子分类的子分类/">分类1的子分类的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/">分类2</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/分类2的子分类/">分类2的子分类</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/">宗教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/文学/">文学</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/">社会</a>
+          <span class="category-list-count">4</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/索引/">索引</a>
+          <span class="category-list-count">5</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/">艺术</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/诸相/">诸相</a>
+          <span class="category-list-count">4</span>
         </li>
 
         
@@ -372,12 +398,12 @@
         
   <div class="nexmoe-widget-wrap">
     <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
-      <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 15px;">日本作家</a> <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 10px;">标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE2/" style="font-size: 10px;">标签2</a> <a href="/tags/%E6%A0%87%E7%AD%BE3/" style="font-size: 10px;">标签3</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 20px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 15px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">中篇小说</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BD%9B%E6%95%99%E7%BB%8F%E5%85%B8/" style="font-size: 12px;">佛教经典</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/" style="font-size: 10px;">卡夫卡</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%A5%A5%E5%9C%B0%E5%88%A9%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">奥地利作家</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E5%BF%83%E7%BB%8F/" style="font-size: 10px;">心经</a> <a href="/tags/%E6%95%A3%E6%96%87/" style="font-size: 14px;">散文</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 20px;">日本作家</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 16px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 18px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E8%B0%B7%E5%B4%8E%E6%B6%A6%E4%B8%80%E9%83%8E/" style="font-size: 10px;">谷崎润一郎</a> <a href="/tags/%E9%87%91%E5%88%9A%E7%BB%8F/" style="font-size: 10px;">金刚经</a> <a href="/tags/%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">长篇小说</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
     </div>
     
       <script>
         var maxTagcloud = parseInt(17);
-        var tags_length = parseInt(21);
+        var tags_length = parseInt(28);
         var tags_arr = [];
         for(var i = 0; i < tags_length; i++){
           tags_arr.push(i);
@@ -442,7 +468,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">文章归档</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">37</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2099/">2099</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a><span class="archive-list-count">53</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">124</span></li></ul>
     </div>
   </div>
 
@@ -457,23 +483,23 @@
       <ul>
         
           <li>
-            <a href="/2022/06/26/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
+            <a href="/2099/12/31/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
           </li>
         
           <li>
-            <a href="/2022/06/26/%E4%B8%80%E4%B8%AA%E5%82%BB%E5%AD%90%E7%9A%84%E4%B8%80%E7%94%9F/">一个傻子的一生</a>
+            <a href="/2023/03/20/%E9%82%AA%E5%AE%97%E9%97%A8/">邪宗门</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E6%B2%B3%E7%AB%A5/">河童</a>
+            <a href="/2023/03/20/%E8%B7%AF%E4%B8%8A/">路上</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E7%82%B9%E9%AC%BC%E8%96%84/">点鬼薄</a>
+            <a href="/2023/01/23/%E6%9A%97%E4%B8%AD%E9%97%AE%E7%AD%94/">暗中问答</a>
           </li>
         
           <li>
-            <a href="/2022/06/24/%E5%AD%94%E4%B9%99%E5%B7%B1/">孔乙己</a>
+            <a href="/2023/01/23/%E4%B8%89%E6%89%87%E7%AA%97%E5%AD%90/">三扇窗子</a>
           </li>
         
       </ul>
@@ -484,13 +510,13 @@
         
     
     <!-- 网易云外链 -->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe>
+    <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe> -->
 </aside>
     <div class="nexmoe-copyright">
-        &copy; 2022 DeltaPainS
+        &copy; 2023 DeltaPainS
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
+        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><a id="dytx" target="_blank" href="https://freenom.painliudao.tk/">地狱通信</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
     </div>
 </div><!-- .nexmoe-drawer -->
     </div>
@@ -523,16 +549,16 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="鼻子"><a href="#鼻子" class="headerlink" title="鼻子"></a>鼻子</h1><blockquote>
 <p>人们的心里有两种互相矛盾的感情。当然，没有人对旁人的不幸不寄予同情的。但是当那个人设法摆脱了不幸之后，这方面却又不知怎地觉得若有所失了。说得夸大一些，甚至想让那个人再度陷入以往的不幸。于是，虽说态度是消极的，却在不知不觉之间对那个人怀起敌意来了。</p>
 </blockquote>
-<p>　　提到禅智内供<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="禅智为人名，内供即内供奉僧，指日本古时供职于内道场的僧官。内道场即皇宫中修习佛法的场所。
+<p>　　提到禅智内供<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="禅智为人名，内供即内供奉僧，指日本古时供职于内道场的僧官。内道场即皇宫中修习佛法的场所。
 ">[1]</span></a></sup>的鼻子，池尾一带无人不知，无人不晓。那鼻子有五六寸长，从上嘴唇上方一直垂到下巴颏底下，从鼻根到鼻尖皆是一般粗细，打个比方说，活像是一根细细长长的腊肠，摇摇晃晃地挂在脸的正中间。</p>
 <p>　　内供已年过五十，从昔日做小沙弥时起，到如今晋升为内道场供奉之职，多年以来他内心中始终为这鼻子所苦。自然，表面上他若无其事，仿佛根本不把这放在心上。这倒不仅因为他是僧侣之身，理应专心致志地欣求来世净土，为区区鼻子操心上火不大合宜。比这更贴切的理由是，内供不希望别人知道他在为鼻子烦忧。日常谈话中，内供最怕的便是“鼻子”这个词儿。</p>
 <p>　　内供对鼻子感到棘手，原因有二。一是鼻子过长，委实不太方便。就说吃饭吧，内供一个人是没办法进食的。若是独自吃饭，鼻子尖便会插到铁碗里的饭中。内供只得让一个弟子坐到食案对面，用一条宽一寸、长二尺的木板帮他托住鼻子。不过用这办法进食，无论托鼻子的弟子，还是被托鼻子的内供，都很不容易。有一回，一个小沙弥代替弟子帮内供托鼻子，童子打喷嚏时手一抖，鼻子便滑进了粥里，这事儿一时间甚至传到了京都。——不过，对内供来说，这决不是他为鼻子伤脑筋的主要理由。说实话，令内供苦恼的，是鼻子伤害了他的自尊心。</p>
 <p>　　池尾街上的人都说，幸好内供是个出家人，否则像他长着这样的鼻子，有哪个女子肯嫁给他呢。甚至还有人议论，或许正是因为内供长着这个鼻子，才出家的吧。但内供并不觉得因为自己是僧人，就能少为鼻子烦心。内供的自尊心格外敏感脆弱，能否娶得上妻室这个问题，足以影响他的心绪。于是内供试图从积极和消极两方面，来恢复受损伤的自尊心。</p>
 <p>　　内供先琢磨的是，有什么办法能让长鼻子显得短一些。趁没人的时候，内供对着镜子，从各个角度照来照去，仔细端详。有时他觉得光靠变化脸的位置不够，便手托脸颊、指按下巴，孜孜不倦地对镜揣摩。可是迄今为止，鼻子还一次没有短得令他满意过。甚至，有时他愈是煞费苦心，鼻子反而显得愈长。每逢这种时候，内供便将镜子收入匣中，长叹一声，怏怏不乐地返回经台前，又去读他的观音经了。</p>
 <p>　　此外，内供还总是留意别人的鼻子。池尾寺中时常举行讲经说法等佛事，寺庙内禅房挨挨挤挤，浴房里每天都烧热水，所以在此间出入的僧俗人等为数众多，内供便不厌其烦地观察这些人的面孔。哪怕找到一个鼻子与自家相同的人，也可以安心释然。所以，内供对什么藏青外褂、白单衫视而不见，至于橘色僧帽、淡黑僧袍之类，更是早就司空见惯、虽有如无。内供并不看人，只看鼻子——可惜鹰钩鼻固然是有的，自己那样的鼻子却一个也见不到。找来找去，始终无处寻觅，内供心里越发不快活了。在同旁人说话的时候，他总是不由自主地捏住下垂的鼻尖端详，虽是一把年纪，老脸依然臊得通红，这都是拜此种不愉快所赐。</p>
-<p>　　最后，内供转念想到，若能从佛经和古籍中觅得鼻子与自家相同的人物，也可获得些许安慰。但无论哪卷经文中，都不曾记载目犍连或舍利弗<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="目犍连与舍利弗为佛陀十大弟子中的两位。目犍连被誉为神通第一，舍利弗为智慧第一。
-">[2]</span></a></sup>有个长鼻子，龙树和马鸣<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="龙树菩萨是佛教史上著名的大乘佛教论师，约生活于公元2世纪。马鸣菩萨是佛教诗人和哲学家，约生活于公元1世纪，被尊为天竺第十二祖。
-">[3]</span></a></sup>自然也是长着正常鼻子的菩萨。从震旦<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="震旦是日本古代对中国的异称，来源于古时印度人对中国称呼的音译。对古代日本人而言，“震旦”和“天竺（印度）”是外国的主要代表。
+<p>　　最后，内供转念想到，若能从佛经和古籍中觅得鼻子与自家相同的人物，也可获得些许安慰。但无论哪卷经文中，都不曾记载目犍连或舍利弗<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="目犍连与舍利弗为佛陀十大弟子中的两位。目犍连被誉为神通第一，舍利弗为智慧第一。
+">[2]</span></a></sup>有个长鼻子，龙树和马鸣<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="龙树菩萨是佛教史上著名的大乘佛教论师，约生活于公元2世纪。马鸣菩萨是佛教诗人和哲学家，约生活于公元1世纪，被尊为天竺第十二祖。
+">[3]</span></a></sup>自然也是长着正常鼻子的菩萨。从震旦<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="震旦是日本古代对中国的异称，来源于古时印度人对中国称呼的音译。对古代日本人而言，“震旦”和“天竺（印度）”是外国的主要代表。
 ">[4]</span></a></sup>的故事里倒是听说蜀汉的刘玄德耳朵极长，内供心想，倘若是鼻子极长，自己该有多么宽心哪。</p>
 <p>　　内供一方面如此这般消极地煞费苦心，一方面又积极地尝试使鼻子变短的办法，这是不必多说的。内供试遍了诸般方法，煎过土瓜汤喝，往鼻子上涂过老鼠尿，但不管用什么办法，鼻子依然保持着五六寸的长度，从嘴唇上方垂下来，摇摇晃晃地挂在那里呢。</p>
 <p>　　终于，一年秋天，内供的弟子去京城办事，从一位熟稔的大夫那里学会了将长鼻变短的良方。那大夫来自震旦，当时在长乐寺为僧。</p>
@@ -562,7 +588,7 @@
 <p>　　一天晚上，日暮之后骤然起风，僧塔上的风铃发出阵阵鸣声，传到内供的枕边，扰得他心思烦乱。加上寒气沁人，年老的内供再也难以入睡。在床上辗转反侧之际，内供蓦地察觉到鼻子痒丝丝的，十分异样。用手一摸，鼻子潮乎乎地肿胀着，似乎还有点发烫。</p>
 <p>　　“硬是把鼻子弄短，或许出毛病了吧。”</p>
 <p>　　内供按着鼻子自言自语，手法宛如在佛前烧香供花一般恭敬。</p>
-<p>　　翌日清晨，内供照例早早醒来，寺里的银杏和七叶树一夜之间落叶飘散，庭院中仿佛铺了一层黄金，明丽耀眼。塔顶上或许是落了霜的缘故，在熹微的晨光中，九轮<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="九轮是佛塔顶上的装饰，为九层环形金属轮。">[5]</span></a></sup>灿然生辉。悬窗已经推起，禅智内供站在檐廊上，深深地吸了口气。</p>
+<p>　　翌日清晨，内供照例早早醒来，寺里的银杏和七叶树一夜之间落叶飘散，庭院中仿佛铺了一层黄金，明丽耀眼。塔顶上或许是落了霜的缘故，在熹微的晨光中，九轮<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="九轮是佛塔顶上的装饰，为九层环形金属轮。">[5]</span></a></sup>灿然生辉。悬窗已经推起，禅智内供站在檐廊上，深深地吸了口气。</p>
 <p>　　就在此时，那几乎已被遗忘的某种感觉，又在内供身上复苏。</p>
 <p>　　内供慌忙去摸鼻子。手所触及的并非昨夜的短鼻子，而是从前那根五六寸长、从上唇直垂到下颏的长鼻子。内供明白了，鼻子一夜之间又变回了原样。与此同时，正如鼻子变短时一样，那种欢畅愉悦的感觉也失而复归。</p>
 <p>　　“如此一来，必然再无人嘲笑我了。”</p>
@@ -646,7 +672,7 @@
 
  
 
-<script async src="/js/app.js?v=1656329731453"></script>
+<script async src="/js/app.js?v=1689176553911"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
@@ -659,6 +685,48 @@
 
 
 
+
+
+    <!-- 全局音乐播放器 -->
+    <div class="aplayer" 
+        data-id="1377353535" 
+        data-server="netease" 
+        data-type="song" 
+        data-fixed="true" 
+        data-mini="true" 
+        data-autoplay="true" 
+        data-order="list" 
+        data-volume="0.3" 
+        data-theme="#1da496" 
+        data-preload="auto" 
+        style="z-index:9999;height:0px" >
+    </div>
+    <style>
+        .aplayer.aplayer-fixed .aplayer-lrc{
+            display: none;
+        }
+    </style>
+
 </body>
+
+<!-- 地狱通信，不能放在head头部，因为会造成执行时需要的元素没渲染。应该还有其它解决方案，但暂且这样吧 -->
+<script>
+    var d = new Date();
+    var h = d.getHours();
+    var dytx = document.getElementById('dytx');
+    //console.log(dytx)
+    if(h == 0){
+        console.log('dytx')
+        dytx.style.visibility = 'visible';	// 显示元素
+        dytx.style.color = '#f00';
+        dytx.style.fontWeight = '800';
+        //dytx.style.display = 'inline';	// 以行内样式显示
+    }else{
+        console.log('no dytx')
+        dytx.style.visibility = 'hidden';	// 隐藏元素
+        //dytx.style.display = 'none';	// 隐藏选择的元素
+    }
+</script>
+
 
 </html>

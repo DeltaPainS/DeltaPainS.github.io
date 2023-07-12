@@ -981,7 +981,7 @@ body {
   }
 }
 #nexmoe-header {
-  margin-left: -260px;
+  margin-left: -225px;
 }
 #nexmoe-header .mdui-drawer {
   left: unset;
@@ -1183,6 +1183,7 @@ body {
   padding: 25px;
   position: absolute;
   min-height: 100vh;
+  margin-left: 55px;
 }
 #nexmoe-content .nexmoe-primary .nexmoe-page-nav {
   list-style: none;
@@ -1415,7 +1416,7 @@ body {
 }
 .nexmoe-post-right .nexmoe-tool {
   position: absolute;
-  bottom: 88px;
+  bottom: 20px;
   left: 20px;
   width: 56px;
 }
@@ -1559,7 +1560,7 @@ photos img {
 }
 @media (min-width: 1024px) {
   .mdui-drawer {
-    width: 260px;
+    width: 265px;
   }
 }
 @-moz-keyframes shake-it {

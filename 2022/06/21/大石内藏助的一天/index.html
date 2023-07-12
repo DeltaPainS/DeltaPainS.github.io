@@ -11,7 +11,7 @@
     
     <!-- 图标，好恶心啊，应该放在下面一行的上面 -->
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/DeltaPainS/images/favicon.png" type="image/png" />
-    <div id="binft" style="font-size: 20px;margin: 11px 0;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
+    <div id="binft" style="font-size: 11px;margin: 11px 0;margin-left: 55px;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
 </head>
 
     <meta name="description" content="大石内藏助的一天 他意识到，经过再次打击之后，心中残存的一点春风，眼看就要消失殆尽。剩下的只有对一切误解的反感，以及对未曾预想到会招致误解的、愚蠢的自己的反感。  　　和煦的阳光洒在紧闭的拉门上，老梅树参差不齐的影子映在门纸上，从右端至左端一两丈长，梅影鲜明如画。原浅野内匠头[1]的家臣大石内藏助良雄[2]，当时正由细川家监管，他背靠着拉门，双膝并拢，端然正坐，从方才起一直在心无旁骛地观书。书大概">
@@ -24,9 +24,9 @@
 <meta property="article:published_time" content="2022-06-21T12:12:56.000Z">
 <meta property="article:modified_time" content="2022-06-21T14:05:14.119Z">
 <meta property="article:author" content="DeltaPainS">
-<meta property="article:tag" content="短篇小说">
 <meta property="article:tag" content="芥川龙之介">
 <meta property="article:tag" content="日本作家">
+<meta property="article:tag" content="短篇小说">
 <meta name="twitter:card" content="summary">
     
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
@@ -34,13 +34,13 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1656329731415">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1689176553885">
     
-    <link rel="stylesheet" href="/css/style.css?v=1656329731415">
+    <link rel="stylesheet" href="/css/style.css?v=1689176553885">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1656329731415">
+            <link rel="stylesheet" href="/custom.css?v=1689176553885">
         
     
 
@@ -57,6 +57,23 @@
     <!-- Live2D -->
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
     <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <style>
+        #waifu{
+            left: 80px;
+        }
+        #live2d{
+            width: 255px;
+            height: 255px;
+        }
+        #waifu-tool {
+            color: #aaa;
+            opacity: 0;
+            position: absolute;
+            right: -5px;
+            top: 50px;
+            transition: opacity 1s;
+        }
+    </style>
 
     <!--浏览器搞笑标题-->
     <script type="text/javascript" src="\js\FunnyTitle.js"></script>
@@ -71,14 +88,6 @@
 
     <!-- 在线联系 -->
     
-        <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/43cf9cc9.js","daovoice")</script>
-        <script>
-            daovoice('init', {
-            app_id: "43cf9cc9"
-            });
-            daovoice('update');
-        </script>
-    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HMECE6TL8"></script>
@@ -89,6 +98,18 @@
 
         gtag('config', 'G-3HMECE6TL8');
     </script>
+
+    <!-- 新版百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0dcc380cfe33d140cafe34e7cbd81a95";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
 
     <!-- 样式一（鼠标点击更换样式） -->
     
@@ -105,6 +126,11 @@
 
     <!-- 不蒜子 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    <!-- 全局音乐播放器 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -127,8 +153,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>37</div>
-        <div><span>标签</span>21</div>
+        <div><span>文章</span>178</div>
+        <div><span>标签</span>28</div>
         <div><span>分类</span>7</div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
@@ -314,50 +340,50 @@
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/">分类1</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/佛教/">佛教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/">分类1的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/分类1的子分类的子分类/">分类1的子分类的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/">分类2</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/分类2的子分类/">分类2的子分类</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/">宗教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/文学/">文学</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/">社会</a>
+          <span class="category-list-count">4</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/索引/">索引</a>
+          <span class="category-list-count">5</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/">艺术</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/诸相/">诸相</a>
+          <span class="category-list-count">4</span>
         </li>
 
         
@@ -372,12 +398,12 @@
         
   <div class="nexmoe-widget-wrap">
     <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
-      <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 15px;">日本作家</a> <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 10px;">标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE2/" style="font-size: 10px;">标签2</a> <a href="/tags/%E6%A0%87%E7%AD%BE3/" style="font-size: 10px;">标签3</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 20px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 15px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">中篇小说</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BD%9B%E6%95%99%E7%BB%8F%E5%85%B8/" style="font-size: 12px;">佛教经典</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/" style="font-size: 10px;">卡夫卡</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%A5%A5%E5%9C%B0%E5%88%A9%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">奥地利作家</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E5%BF%83%E7%BB%8F/" style="font-size: 10px;">心经</a> <a href="/tags/%E6%95%A3%E6%96%87/" style="font-size: 14px;">散文</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 20px;">日本作家</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 16px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 18px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E8%B0%B7%E5%B4%8E%E6%B6%A6%E4%B8%80%E9%83%8E/" style="font-size: 10px;">谷崎润一郎</a> <a href="/tags/%E9%87%91%E5%88%9A%E7%BB%8F/" style="font-size: 10px;">金刚经</a> <a href="/tags/%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">长篇小说</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
     </div>
     
       <script>
         var maxTagcloud = parseInt(17);
-        var tags_length = parseInt(21);
+        var tags_length = parseInt(28);
         var tags_arr = [];
         for(var i = 0; i < tags_length; i++){
           tags_arr.push(i);
@@ -442,7 +468,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">文章归档</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">37</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2099/">2099</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a><span class="archive-list-count">53</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">124</span></li></ul>
     </div>
   </div>
 
@@ -457,23 +483,23 @@
       <ul>
         
           <li>
-            <a href="/2022/06/26/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
+            <a href="/2099/12/31/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
           </li>
         
           <li>
-            <a href="/2022/06/26/%E4%B8%80%E4%B8%AA%E5%82%BB%E5%AD%90%E7%9A%84%E4%B8%80%E7%94%9F/">一个傻子的一生</a>
+            <a href="/2023/03/20/%E9%82%AA%E5%AE%97%E9%97%A8/">邪宗门</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E6%B2%B3%E7%AB%A5/">河童</a>
+            <a href="/2023/03/20/%E8%B7%AF%E4%B8%8A/">路上</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E7%82%B9%E9%AC%BC%E8%96%84/">点鬼薄</a>
+            <a href="/2023/01/23/%E6%9A%97%E4%B8%AD%E9%97%AE%E7%AD%94/">暗中问答</a>
           </li>
         
           <li>
-            <a href="/2022/06/24/%E5%AD%94%E4%B9%99%E5%B7%B1/">孔乙己</a>
+            <a href="/2023/01/23/%E4%B8%89%E6%89%87%E7%AA%97%E5%AD%90/">三扇窗子</a>
           </li>
         
       </ul>
@@ -484,13 +510,13 @@
         
     
     <!-- 网易云外链 -->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe>
+    <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe> -->
 </aside>
     <div class="nexmoe-copyright">
-        &copy; 2022 DeltaPainS
+        &copy; 2023 DeltaPainS
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
+        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><a id="dytx" target="_blank" href="https://freenom.painliudao.tk/">地狱通信</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
     </div>
 </div><!-- .nexmoe-drawer -->
     </div>
@@ -523,8 +549,8 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="大石内藏助的一天"><a href="#大石内藏助的一天" class="headerlink" title="大石内藏助的一天"></a>大石内藏助的一天</h1><blockquote>
 <p>他意识到，经过再次打击之后，心中残存的一点春风，眼看就要消失殆尽。剩下的只有对一切误解的反感，以及对未曾预想到会招致误解的、愚蠢的自己的反感。</p>
 </blockquote>
-<p>　　和煦的阳光洒在紧闭的拉门上，老梅树参差不齐的影子映在门纸上，从右端至左端一两丈长，梅影鲜明如画。原浅野内匠头<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="浅野内匠头即浅野长矩（1667—1701），是江户时代中期赤穗藩的第三代藩主，因官位为从五品的内匠头，故称浅野内匠头。元禄十四年（1701年）三月十四日在江户城殿中拔刀击伤幕府官员吉良义央，因殿中拔刀之罪被幕府命令自尽，当晚切腹。
-">[1]</span></a></sup>的家臣大石内藏助良雄<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="大石良雄（1659—1703），赤穗藩浅野家的家臣首领，内藏助是内藏寮的次官，是他的官职名。浅野长矩死后，大石良雄等四十七名赤穗藩的武士为替主人报仇，于元禄十五年十二月十五日（1703年1月30日）袭击吉良义央府，杀死吉良义央。事后，赤穗武士们被幕府分成四组，分别在四个大名家监管。大石等十七人被熊本藩细川家监管。1703年3 月20日，除了一人事后便离去之外，四十六名武士皆在幕府命令下切腹自尽，葬于泉岳寺浅野长矩的坟墓旁。
+<p>　　和煦的阳光洒在紧闭的拉门上，老梅树参差不齐的影子映在门纸上，从右端至左端一两丈长，梅影鲜明如画。原浅野内匠头<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="浅野内匠头即浅野长矩（1667—1701），是江户时代中期赤穗藩的第三代藩主，因官位为从五品的内匠头，故称浅野内匠头。元禄十四年（1701年）三月十四日在江户城殿中拔刀击伤幕府官员吉良义央，因殿中拔刀之罪被幕府命令自尽，当晚切腹。
+">[1]</span></a></sup>的家臣大石内藏助良雄<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="大石良雄（1659—1703），赤穗藩浅野家的家臣首领，内藏助是内藏寮的次官，是他的官职名。浅野长矩死后，大石良雄等四十七名赤穗藩的武士为替主人报仇，于元禄十五年十二月十五日（1703年1月30日）袭击吉良义央府，杀死吉良义央。事后，赤穗武士们被幕府分成四组，分别在四个大名家监管。大石等十七人被熊本藩细川家监管。1703年3 月20日，除了一人事后便离去之外，四十六名武士皆在幕府命令下切腹自尽，葬于泉岳寺浅野长矩的坟墓旁。
 ">[2]</span></a></sup>，当时正由细川家监管，他背靠着拉门，双膝并拢，端然正坐，从方才起一直在心无旁骛地观书。书大概是细川家的一名家臣借给他的《三国志》中的一册。</p>
 <p>　　房间中共有九人。片冈源五右卫门刚才如厕去了，早水藤左卫门则去下房说话还未归来。余下吉田忠左卫门、原总右卫门、间濑久太夫、小野寺十内、堀部弥兵卫，以及间喜兵卫六人，他们似乎忘记了拉门上的阳光，有的沉浸于书中，有的在写信。六人都是五十开外的老人，或许出于这个缘故，早春的房间中一片寂静，令人微感寒意。偶尔有咳嗽声响起，但那声音连隐隐飘浮着的墨香都无法搅动。</p>
 <p>　　内藏助从《三国志》上移开目光，凝望着远处，静静地在身侧的火盆上烤着手。盖着铁丝网的火盆中，用灰埋着的木炭下，美丽的红光照亮了炭灰。感觉到炭火的暖意，内藏助心中再次溢起安宁的满足感。去年腊月十五日，他们为亡故的主君报仇后，撤退到泉岳寺时，他曾吟诗道“舍身雪恨诚快事，浮世无云能蔽月”，此刻，他又体会到了当时的满足感。</p>
@@ -548,7 +574,7 @@
 <p>　　忠左卫门被烟呛着了，难受地笑了一下。这时，一直在运笔如飞的小野寺十内像是想起了什么，略略抬起头，但目光随即又落回纸上，孜孜地继续写下去。他大概是给京都的妻女写信吧。</p>
 <p>　　内藏助笑了起来，眼角的皱纹益发深了，问道：</p>
 <p>　　“有什么有趣的话吗？”</p>
-<p>　　“嗯，都是些闲话。不过，方才近松说起甚三郎的事<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="近松指赤穗四十七义士之一的近松勘六行重。甚三郎是近松的仆人，义士们袭击吉良义央府邸时，他自愿担任警戒工作，义士们撤退到泉岳寺时，他又送来食物，被后世称为义仆。
+<p>　　“嗯，都是些闲话。不过，方才近松说起甚三郎的事<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="近松指赤穗四十七义士之一的近松勘六行重。甚三郎是近松的仆人，义士们袭击吉良义央府邸时，他自愿担任警戒工作，义士们撤退到泉岳寺时，他又送来食物，被后世称为义仆。
 ">[3]</span></a></sup>时，连传右卫门老爷都听得眼含热泪。另外嘛……对了，说起来，有件有趣的事。据说，自从我们讨伐了吉良之后，江户城中开始流行复仇。”</p>
 <p>　　“哦？这倒是没有想到。”</p>
 <p>　　忠左卫门诧异地望着藤左卫门。后者讲起这个话题，似乎非常得意。</p>
@@ -558,7 +584,7 @@
 <p>　　“染坊伙计受了重伤，可是周围人都认为小学徒做得对，难以理解吧。此外，在通町三街有一起，新麴町二街也有一起，还有什么地方也发生了一起。总之，到处都有这样的事。据说都是在效仿我们，你说可笑不可笑？”</p>
 <p>　　藤左卫门和忠左卫门相视而笑。听到复仇影响了江户的人心，无论事件多么微小，无疑都是令人愉快的。不过，内藏助却只是以手扶额，露出索然的神色，沉默不语。藤左卫门的话，在他心中的满足感上，投下了轻微却莫名的阴影。当然，他并无意对自己行为的所有结果都承担责任，他们完成复仇以来，江户城中开始流行复仇，这本来与他的良心是风马牛不相及的事。但尽管如此，此前他心中那春意融融的和煦之感，却像是减却了几分。</p>
 <p>　　事实上，此时的内藏助，仅是对他们行为的影响力波及了意外的地方，感到有一些惊诧而已。若在平常，他会同藤左卫门和忠左卫门一样，对此事一笑置之。但对于方才还心满意足的他，这种事却蓦地在他心上播下了不快的种子。这恐怕是因为他的满足带有自说自话的性质，暗地里与逻辑背道而驰，想要全面肯定自己的行为和复仇的结果。当然，此时内藏助心中，丝毫没有这种自我解剖的念头。他只是感到春风下有一股冰冷之气，莫名地觉得不愉快而已。</p>
-<p>　　不过，内藏助没有发笑，并未引起其他二位的注意。岂止如此，像藤左卫门这样好脾气的人，总以为自己感兴趣的话题，内藏助也会觉得有趣。他对这一点深信不疑，否则他就不必特意跑去下房，请来当值的细川家的家臣堀内传右卫门<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="堀内传右卫门，名重胜，是细川纲利的家臣。大石内藏助等十七人被细川家监管期间，由他陪伴照料。后来他将此期间的情形写成《细川家所管十七义士记》（又称为《堀内传右卫门手记》）。
+<p>　　不过，内藏助没有发笑，并未引起其他二位的注意。岂止如此，像藤左卫门这样好脾气的人，总以为自己感兴趣的话题，内藏助也会觉得有趣。他对这一点深信不疑，否则他就不必特意跑去下房，请来当值的细川家的家臣堀内传右卫门<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="堀内传右卫门，名重胜，是细川纲利的家臣。大石内藏助等十七人被细川家监管期间，由他陪伴照料。后来他将此期间的情形写成《细川家所管十七义士记》（又称为《堀内传右卫门手记》）。
 ">[4]</span></a></sup>了。藤左卫门一向凡事不惮辛苦，此时他看看忠左卫门，说了一句“我去请传右卫门老爷吧”，刷地拉开隔扇，高高兴兴地到下房去了。不一会儿，他依旧笑眯眯的，陪着模样憨直的传右卫门，得意洋洋地回来了。</p>
 <p>　　“哎呀，劳您移步，真是不敢当。”</p>
 <p>　　见到传右卫门，忠左卫门连忙代替良雄，微笑着打招呼。传右卫门生性朴素率真，自从众人被细川家暂管以来，他们与传右卫门之间已经产生了老朋友般的温情。</p>
@@ -572,7 +598,7 @@
 <p>　　“就是江户城中流行复仇的事。”藤左卫门一边说道，一边笑嘻嘻地看看传右卫门，再看看内藏助。</p>
 <p>　　“哈，原来是这件事啊。人情实在是奇怪的东西，世人感受到诸位的忠义，就连庶民百姓也想效仿。如此一来，这上上下下堕落的风俗，不知会有多么大的好转。且说，眼下净流行些说唱故事啦、歌舞伎啦，这些让人看都不想看的东西，现在正应当改变风气。”</p>
 <p>　　谈话又朝着内藏助不想听的方向进行下去，于是，他故意语气沉重地说了如下这番谦卑之辞，试图巧妙地转换谈话方向。</p>
-<p>　　“十分感激您赞赏我等的忠义，不过依在下看来，我们倒应该先感到羞耻。”内藏助环顾满座，续道，“若论其中缘故，如您所见，赤穗藩众多的藩士中，坐在这里的却皆是身份低微之人。本来，一开始番头奥野将监<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="即奥野定良，是赤穗藩的另一位家臣领袖，一开始赞成复仇，后来退出。但也有一种说法认为他的退出是为了抚养浅野长矩的遗子。
+<p>　　“十分感激您赞赏我等的忠义，不过依在下看来，我们倒应该先感到羞耻。”内藏助环顾满座，续道，“若论其中缘故，如您所见，赤穗藩众多的藩士中，坐在这里的却皆是身份低微之人。本来，一开始番头奥野将监<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="即奥野定良，是赤穗藩的另一位家臣领袖，一开始赞成复仇，后来退出。但也有一种说法认为他的退出是为了抚养浅野长矩的遗子。
 ">[5]</span></a></sup>曾与我们共商大计，中途却变了主意，终于脱离了同盟，只能说令人好生意外。另外，进藤源四郎、河村传兵卫、小山源五左卫门等人，席位都在原总右卫门之上，佐佐小左卫门等人也比吉田忠左卫门地位来得高，但这些人都在举事前夕，改变了主意。其中还有在下的亲戚。因此，感到羞耻也是理所当然的。”</p>
 <p>　　随着内藏助的这番话，座席中失去了先前快活的气氛，遽然变得严肃起来。在此意义上，的确可以说，谈话按照内藏助的意图改变了方向。不过，转换后的方向是否真的使他愉快，就另当别论了。</p>
 <p>　　听了内藏助的感慨，早水藤左卫门双手握拳，在膝盖上连连磨蹭，道：</p>
@@ -581,22 +607,22 @@
 <p>　　生性激昂的弥兵卫本来就不会一声不响，遂道：“我们撤回来的那天早晨，遇到了高田那厮，当时觉得啐他两口也不解气。他居然还能恬不知耻地来到我们面前，说什么夙愿得偿，真是可喜可贺云云。”</p>
 <p>　　“高田确实不像话，小山田庄左卫门之流也是一无是处的浑蛋。”间濑久太夫自言自语道。</p>
 <p>　　于是，原总右卫门和小野寺十内也异口同声地骂起背弃盟约的人来。就连沉默寡言的间喜兵卫，虽然没有开口，却频频点着白发苍苍的头，表示赞同众人的意见。</p>
-<p>　　“真是难以想象，诸位这样的忠臣，竟和那些卑劣之徒同处一藩。但也正因如此，武士们自不必说，就连庶民百姓都骂那些人是尸位素餐的草包武士。冈林杢之助<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="冈林杢之助，名直之，是赤穗藩的重臣。大石内藏助等人为主君报仇后，冈林杢之助的兄长为了顾及世间的议论，强迫他切腹殉死。
+<p>　　“真是难以想象，诸位这样的忠臣，竟和那些卑劣之徒同处一藩。但也正因如此，武士们自不必说，就连庶民百姓都骂那些人是尸位素餐的草包武士。冈林杢之助<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="冈林杢之助，名直之，是赤穗藩的重臣。大石内藏助等人为主君报仇后，冈林杢之助的兄长为了顾及世间的议论，强迫他切腹殉死。
 ">[6]</span></a></sup>老爷去年切腹自尽，可据说那是亲属们合计，迫使他自杀的。但若是不死，到了如今这个地步，也不得不承受污名。至于其他人，就更不必说了。江户人本来就好见义勇为，甚至仿效诸位复仇，况且那是诸位早就义愤填膺之事，因此，没准会有人出头，将那些卑劣之徒斩杀呢。”</p>
 <p>　　传右卫门昂然断言，浑如在说自家的事似的。看那样子，他没准儿会一马当先，担起斩杀那些人的任务。吉田、原、早水、堀部等人受到他的鼓动，都兴奋起来，越发严厉地痛骂那些乱臣贼子。只有大石内藏助一人把双手放在膝盖上，神情更加索然，渐渐不再开口，只茫然地望着火盆。</p>
 <p>　　他发现了一个新的事实，即话题朝着他的方向转换的结果，就是以变节的前同僚们为代价，自己这伙人的忠义获得了越发热烈的赞颂。与此同时，吹拂于他心底的春风，再度减却了几分暖意。当然，他对背弃盟约之人的惋惜，并非仅仅为了转换话题，对于那些人的变节，他的确感到遗憾和不快。但是，对于那些不忠的武士，他心中存有怜悯，却并无憎恨。他早已阅尽人心的向背、世情的流转，在他看来，那些人改变主意，多半属于再自然不过的事。若是允许使用“率真”这个词，那就是一种可怜的率真。因此，他对那些人，始终没有改变宽容的心态。何况如今复仇已经成功，他给予那些人的，只剩下怜悯的微笑而已。可是世间对那些人，却杀之犹嫌不足。难道为了将我等尊为忠义之士，就必须将他们贬为衣冠禽兽吗？我们与他们的差别，其实未必有多么大。——从方才起，内藏助就为复仇给江户的庶民百姓带来的奇特影响而感到不快，此时，在略有不同的意义上，他又从传右卫门所代表的天下公论中，看到了背弃盟约的同僚们因复仇而蒙受的影响。他神情苦涩，决不是偶然的。</p>
 <p>　　可是，内藏助不快的心情，还需要在此之上，承受最后的折磨。</p>
-<p>　　传右卫门见他沉默不语，以为这是内藏助谦逊的品性所致，于是越发敬佩他的为人。为了表白自己的敬重之心，这位淳朴的肥后<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="肥后是日本旧国名，位于现在的熊本县。
+<p>　　传右卫门见他沉默不语，以为这是内藏助谦逊的品性所致，于是越发敬佩他的为人。为了表白自己的敬重之心，这位淳朴的肥后<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="肥后是日本旧国名，位于现在的熊本县。
 ">[7]</span></a></sup>武士硬生生地转换了话题，对内藏助的忠义大加赞颂。</p>
-<p>　　“从前，在下曾经听一位博学多识的人讲过，唐土<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="唐土即中国，春秋时期晋国的豫让为了替主公智伯报仇，以漆涂身，吞炭成哑，以此改变面貌来刺杀赵襄子。
+<p>　　“从前，在下曾经听一位博学多识的人讲过，唐土<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="唐土即中国，春秋时期晋国的豫让为了替主公智伯报仇，以漆涂身，吞炭成哑，以此改变面貌来刺杀赵襄子。
 ">[8]</span></a></sup>有一位勇士为了替主君报仇，宁肯吞炭致哑。可是，比起内藏助老爷违心地放浪形骸，他就算不得有多苦了。”</p>
-<p>　　传右卫门先说了这段引子，然后长篇大论地讲起一年前内藏助极尽放浪时的逸闻来：去高尾和爱宕山观赏红叶时<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="高尾是京都市右京区的一处地方，爱宕山是位于京都市西北、上嵯峨北部的一座山，两处皆是赏红叶的胜地。
-">[9]</span></a></sup>，他装傻佯狂，该有多么痛苦啊。岛原和祗园的赏樱之宴<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="岛原在京都市下京区西部，祗园是京都八坂神社的旧称，也指其附近地区。两处皆是京都有名的花街区。
+<p>　　传右卫门先说了这段引子，然后长篇大论地讲起一年前内藏助极尽放浪时的逸闻来：去高尾和爱宕山观赏红叶时<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="高尾是京都市右京区的一处地方，爱宕山是位于京都市西北、上嵯峨北部的一座山，两处皆是赏红叶的胜地。
+">[9]</span></a></sup>，他装傻佯狂，该有多么痛苦啊。岛原和祗园的赏樱之宴<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="岛原在京都市下京区西部，祗园是京都八坂神社的旧称，也指其附近地区。两处皆是京都有名的花街区。
 ">[10]</span></a></sup>，对于沉溺于苦肉计中的他，又是多大的煎熬！</p>
 <p>　　“听说京都当时流行一句顺口溜，‘大石轻且空，原是纸灯笼”。内藏助老爷居然这般瞒过天下人的眼目，实在非常人所能为。先前天野弥左卫门老爷称赞您沉毅英勇，的确极为中肯。”</p>
 <p>　　“哪里，实在愧不敢当。”内藏助勉强答道。</p>
 <p>　　内藏助毫无倨傲之态，传右卫门未免有些不满足，但另一方面却越发感到他品格高尚。他本来面对着内藏助，此时索性转向长年在京都奉职的小野寺十内，更加热烈地表达自己的崇敬之心。对于传右卫门这种孩子气的热情，以人情练达著称的十内觉得既好笑，又颇为可爱。于是，十内厚道地顺着传右卫门的心意，详细讲起当时内藏助为了哄骗仇家细作，裹着僧衣流连于升屋名妓夕雾香闺的逸事。</p>
-<p>　　“这么严肃的内藏助老爷，当时甚至写了一首《花街风情》的小调，而且大受称赞，整个花街就没有一家不传唱的。内藏助老爷当时总是一身墨色僧衣，祗园赏樱时，他醺醺欲醉，走在飘落的樱花中，众人都称他是‘浮官人<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="大石内藏助流连花街的期间自称为“大石浮”。">[11]</span></a></sup>’。《花街风情》大为流行，内藏助老爷放荡的名声也越发响亮，这没什么奇怪。什么夕雾呀、浮桥呀，那些岛原和撞木町有名的花魁娘子，一听说内藏助的名头，纷纷青眼相看，奉为上宾。”</p>
+<p>　　“这么严肃的内藏助老爷，当时甚至写了一首《花街风情》的小调，而且大受称赞，整个花街就没有一家不传唱的。内藏助老爷当时总是一身墨色僧衣，祗园赏樱时，他醺醺欲醉，走在飘落的樱花中，众人都称他是‘浮官人<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="大石内藏助流连花街的期间自称为“大石浮”。">[11]</span></a></sup>’。《花街风情》大为流行，内藏助老爷放荡的名声也越发响亮，这没什么奇怪。什么夕雾呀、浮桥呀，那些岛原和撞木町有名的花魁娘子，一听说内藏助的名头，纷纷青眼相看，奉为上宾。”</p>
 <p>　　内藏助极不愉快地听着十内的这番话，感觉几近受到了侮辱。同时，昔日放浪生活的记忆，却又无意识地浮上心头。对他来说，那记忆色彩出奇地鲜明。他在那段回忆中，看到了长蜡烛的光亮，嗅到了沉香油的芬芳，听到了弹唱加贺小调的三弦声。不仅如此，刚才十内提到的《花街风情》中的词句“珠泪盈盈湿香袖，露水情缘，将生涯、欢场度送”，连同那仿佛春宫图中走出来的一般、娇艳妩媚的夕雾和浮桥的身姿一道，历历浮现在他的心头。这记忆中的放浪生活，他曾经多么尽情地享受过！而且，在放荡的生活中，有多少次他品味着那春风骀荡的瞬间，全然忘记了复仇！他太过正直，无法欺骗自己，否认这个事实。当然，深谙人性的他，做梦也不会认为这一事实是不道德的。因此，当他所有的放浪都被当作尽忠手段而被大加赞誉时，他既感到不快，也心怀愧疚。</p>
 <p>　　既然内藏助心存这一念头，当众赞扬他的所谓装傻苦肉计时，他脸色难看，也就不足为怪了。他意识到，经过再次打击之后，心中残存的一点春风，眼看就要消失殆尽。剩下的只有对一切误解的反感，以及对未曾预想到会招致误解的、愚蠢的自己的反感。这两种反感漫开微寒的阴影。他的复仇之举，他的志同道合的伙伴们，甚至他自己，大概也会与那些自以为是的赞扬声一起，流传到后世去吧。——面对这令人不快的事实，他把手放到热气渐渐微弱的火盆上，避开传右卫门的目光，悲凉地长叹一声。</p>
 <p>　　片刻之后，大石内藏助托言起身如厕，离开了座席。他独自倚在檐廊的柱子上，望着寒梅老树在古庭院的青苔与石头间开出皎白的花朵。日色已经暗淡，黄昏从庭院中的竹阴下弥漫开来。可是，拉门内依然谈笑风生。听着那谈笑声，他感到一抹哀伤之情缓缓地裹住了他。伴随着梅花淡淡的清香，寂寞渗入了他清冷的心底，这难以名状的寂寞，究竟从何而来？——内藏助仰望着那像镶嵌在蔚蓝天空中一般的、坚硬冰冷的花朵，久久地伫立在那里。</p>
@@ -680,7 +706,7 @@
 
  
 
-<script async src="/js/app.js?v=1656329731422"></script>
+<script async src="/js/app.js?v=1689176553890"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
@@ -693,6 +719,48 @@
 
 
 
+
+
+    <!-- 全局音乐播放器 -->
+    <div class="aplayer" 
+        data-id="1377353535" 
+        data-server="netease" 
+        data-type="song" 
+        data-fixed="true" 
+        data-mini="true" 
+        data-autoplay="true" 
+        data-order="list" 
+        data-volume="0.3" 
+        data-theme="#1da496" 
+        data-preload="auto" 
+        style="z-index:9999;height:0px" >
+    </div>
+    <style>
+        .aplayer.aplayer-fixed .aplayer-lrc{
+            display: none;
+        }
+    </style>
+
 </body>
+
+<!-- 地狱通信，不能放在head头部，因为会造成执行时需要的元素没渲染。应该还有其它解决方案，但暂且这样吧 -->
+<script>
+    var d = new Date();
+    var h = d.getHours();
+    var dytx = document.getElementById('dytx');
+    //console.log(dytx)
+    if(h == 0){
+        console.log('dytx')
+        dytx.style.visibility = 'visible';	// 显示元素
+        dytx.style.color = '#f00';
+        dytx.style.fontWeight = '800';
+        //dytx.style.display = 'inline';	// 以行内样式显示
+    }else{
+        console.log('no dytx')
+        dytx.style.visibility = 'hidden';	// 隐藏元素
+        //dytx.style.display = 'none';	// 隐藏选择的元素
+    }
+</script>
+
 
 </html>

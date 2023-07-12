@@ -11,7 +11,7 @@
     
     <!-- 图标，好恶心啊，应该放在下面一行的上面 -->
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/DeltaPainS/images/favicon.png" type="image/png" />
-    <div id="binft" style="font-size: 20px;margin: 11px 0;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
+    <div id="binft" style="font-size: 11px;margin: 11px 0;margin-left: 55px;"></div> <head><script src="/js/auto_scroll_text.js"></script><meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="道隐无名" type="application/atom+xml">
 </head>
 
     <meta name="description" content="六宫小姐 我什么都不需要，生也罢，死也罢，都是一样的。  一　　六宫小姐的父亲是从前的一位皇女所生，但他为人古板守旧，不追逐时流，所以官位只做到兵部大辅[1]，便再无升迁。小姐与父母一起住在六宫旁边的一座颇为高大的府邸中。六宫小姐的称呼，便缘自这一地名。 　　父母十分宠爱小姐，但他们仍是老式做派，没有主动为她寻觅一位佳婿，而是期待有人上门求亲。小姐恪守父母的训诲，谦恭守礼地度着闺中岁月。那是既不知">
@@ -24,9 +24,9 @@
 <meta property="article:published_time" content="2022-06-24T02:47:59.000Z">
 <meta property="article:modified_time" content="2022-06-24T05:24:22.633Z">
 <meta property="article:author" content="DeltaPainS">
-<meta property="article:tag" content="短篇小说">
 <meta property="article:tag" content="芥川龙之介">
 <meta property="article:tag" content="日本作家">
+<meta property="article:tag" content="短篇小说">
 <meta name="twitter:card" content="summary">
     
 <link rel="stylesheet" href="/lib/fancybox/fancybox.css">
@@ -34,13 +34,13 @@
 <link rel="stylesheet" href="/lib/mdui_043tiny/mdui.css">
 
 
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1656329731267">
+    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1689176553798">
     
-    <link rel="stylesheet" href="/css/style.css?v=1656329731267">
+    <link rel="stylesheet" href="/css/style.css?v=1689176553798">
 
     
         
-            <link rel="stylesheet" href="/custom.css?v=1656329731267">
+            <link rel="stylesheet" href="/custom.css?v=1689176553798">
         
     
 
@@ -57,6 +57,23 @@
     <!-- Live2D -->
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
     <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <style>
+        #waifu{
+            left: 80px;
+        }
+        #live2d{
+            width: 255px;
+            height: 255px;
+        }
+        #waifu-tool {
+            color: #aaa;
+            opacity: 0;
+            position: absolute;
+            right: -5px;
+            top: 50px;
+            transition: opacity 1s;
+        }
+    </style>
 
     <!--浏览器搞笑标题-->
     <script type="text/javascript" src="\js\FunnyTitle.js"></script>
@@ -71,14 +88,6 @@
 
     <!-- 在线联系 -->
     
-        <script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/43cf9cc9.js","daovoice")</script>
-        <script>
-            daovoice('init', {
-            app_id: "43cf9cc9"
-            });
-            daovoice('update');
-        </script>
-    
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HMECE6TL8"></script>
@@ -89,6 +98,18 @@
 
         gtag('config', 'G-3HMECE6TL8');
     </script>
+
+    <!-- 新版百度统计代码 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0dcc380cfe33d140cafe34e7cbd81a95";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
 
     <!-- 样式一（鼠标点击更换样式） -->
     
@@ -105,6 +126,11 @@
 
     <!-- 不蒜子 -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    <!-- 全局音乐播放器 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -127,8 +153,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>37</div>
-        <div><span>标签</span>21</div>
+        <div><span>文章</span>178</div>
+        <div><span>标签</span>28</div>
         <div><span>分类</span>7</div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
@@ -314,50 +340,50 @@
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/">分类1</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/佛教/">佛教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/">分类1的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类1/分类1的子分类/分类1的子分类的子分类/">分类1的子分类的子分类</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/">分类2</a>
-          <span class="category-list-count">1</span>
-        </li>
-
-        
-
-        <li class="category-list-item">
-          <a class="category-list-link" href="/categories/分类2/分类2的子分类/">分类2的子分类</a>
-          <span class="category-list-count">1</span>
+          <a class="category-list-link" href="/categories/宗教/">宗教</a>
+          <span class="category-list-count">2</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/文学/">文学</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/">社会</a>
+          <span class="category-list-count">4</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/索引/">索引</a>
+          <span class="category-list-count">5</span>
         </li>
 
         
 
         <li class="category-list-item">
           <a class="category-list-link" href="/categories/艺术/">艺术</a>
-          <span class="category-list-count">35</span>
+          <span class="category-list-count">165</span>
+        </li>
+
+        
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/社会/诸相/">诸相</a>
+          <span class="category-list-count">4</span>
         </li>
 
         
@@ -372,12 +398,12 @@
         
   <div class="nexmoe-widget-wrap">
     <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
-      <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 15px;">日本作家</a> <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 10px;">标签1</a> <a href="/tags/%E6%A0%87%E7%AD%BE2/" style="font-size: 10px;">标签2</a> <a href="/tags/%E6%A0%87%E7%AD%BE3/" style="font-size: 10px;">标签3</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 20px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 15px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">中国作家</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E8%AF%97%E4%BA%BA/" style="font-size: 10px;">中国诗人</a> <a href="/tags/%E4%B8%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">中篇小说</a> <a href="/tags/%E4%B8%B9%E9%BA%A6%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">丹麦作家</a> <a href="/tags/%E4%B9%A6%E5%BA%8F/" style="font-size: 10px;">书序</a> <a href="/tags/%E4%BD%9B%E6%95%99%E7%BB%8F%E5%85%B8/" style="font-size: 12px;">佛教经典</a> <a href="/tags/%E4%BF%84%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">俄国作家</a> <a href="/tags/%E5%8D%A1%E5%A4%AB%E5%8D%A1/" style="font-size: 10px;">卡夫卡</a> <a href="/tags/%E5%A5%91%E8%AF%83%E5%A4%AB/" style="font-size: 10px;">契诃夫</a> <a href="/tags/%E5%A5%A5%E5%9C%B0%E5%88%A9%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">奥地利作家</a> <a href="/tags/%E5%AE%89%E5%BE%92%E7%94%9F/" style="font-size: 10px;">安徒生</a> <a href="/tags/%E5%BF%83%E7%BB%8F/" style="font-size: 10px;">心经</a> <a href="/tags/%E6%95%A3%E6%96%87/" style="font-size: 14px;">散文</a> <a href="/tags/%E6%97%A5%E6%9C%AC%E4%BD%9C%E5%AE%B6/" style="font-size: 20px;">日本作家</a> <a href="/tags/%E6%AC%A7%C2%B7%E4%BA%A8%E5%88%A9/" style="font-size: 10px;">欧·亨利</a> <a href="/tags/%E6%B3%95%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">法国作家</a> <a href="/tags/%E6%B5%B7%E5%AD%90/" style="font-size: 10px;">海子</a> <a href="/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">现代诗歌</a> <a href="/tags/%E7%9F%AD%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 16px;">短篇小说</a> <a href="/tags/%E7%AB%A5%E8%AF%9D/" style="font-size: 10px;">童话</a> <a href="/tags/%E7%BE%8E%E5%9B%BD%E4%BD%9C%E5%AE%B6/" style="font-size: 10px;">美国作家</a> <a href="/tags/%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/" style="font-size: 18px;">芥川龙之介</a> <a href="/tags/%E8%8E%AB%E6%B3%8A%E6%A1%91/" style="font-size: 10px;">莫泊桑</a> <a href="/tags/%E8%B0%B7%E5%B4%8E%E6%B6%A6%E4%B8%80%E9%83%8E/" style="font-size: 10px;">谷崎润一郎</a> <a href="/tags/%E9%87%91%E5%88%9A%E7%BB%8F/" style="font-size: 10px;">金刚经</a> <a href="/tags/%E9%95%BF%E7%AF%87%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">长篇小说</a> <a href="/tags/%E9%B2%81%E8%BF%85/" style="font-size: 10px;">鲁迅</a>
     </div>
     
       <script>
         var maxTagcloud = parseInt(17);
-        var tags_length = parseInt(21);
+        var tags_length = parseInt(28);
         var tags_arr = [];
         for(var i = 0; i < tags_length; i++){
           tags_arr.push(i);
@@ -442,7 +468,7 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">文章归档</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">37</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2099/">2099</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/">2023</a><span class="archive-list-count">53</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">124</span></li></ul>
     </div>
   </div>
 
@@ -457,23 +483,23 @@
       <ul>
         
           <li>
-            <a href="/2022/06/26/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
+            <a href="/2099/12/31/%E5%AF%BC%E8%AF%BB%E4%B9%8B%E8%8A%A5%E5%B7%9D%E9%BE%99%E4%B9%8B%E4%BB%8B/">导读之芥川龙之介</a>
           </li>
         
           <li>
-            <a href="/2022/06/26/%E4%B8%80%E4%B8%AA%E5%82%BB%E5%AD%90%E7%9A%84%E4%B8%80%E7%94%9F/">一个傻子的一生</a>
+            <a href="/2023/03/20/%E9%82%AA%E5%AE%97%E9%97%A8/">邪宗门</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E6%B2%B3%E7%AB%A5/">河童</a>
+            <a href="/2023/03/20/%E8%B7%AF%E4%B8%8A/">路上</a>
           </li>
         
           <li>
-            <a href="/2022/06/25/%E7%82%B9%E9%AC%BC%E8%96%84/">点鬼薄</a>
+            <a href="/2023/01/23/%E6%9A%97%E4%B8%AD%E9%97%AE%E7%AD%94/">暗中问答</a>
           </li>
         
           <li>
-            <a href="/2022/06/24/%E5%AD%94%E4%B9%99%E5%B7%B1/">孔乙己</a>
+            <a href="/2023/01/23/%E4%B8%89%E6%89%87%E7%AA%97%E5%AD%90/">三扇窗子</a>
           </li>
         
       </ul>
@@ -484,13 +510,13 @@
         
     
     <!-- 网易云外链 -->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe>
+    <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1377353535&auto=0&height=32"></iframe> -->
 </aside>
     <div class="nexmoe-copyright">
-        &copy; 2022 DeltaPainS
+        &copy; 2023 DeltaPainS
         Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
         & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
-        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
+        <br><br><a target="_blank" href="https://beian.miit.gov.cn/">网站备案是不可能备案的，这辈子都不可能进行网站备案的</a> <br><br><a id="dytx" target="_blank" href="https://freenom.painliudao.tk/">地狱通信</a> <br><br><span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人次</span> & <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> <br><br><span id="runtime_span"></span><head><script type="text/javascript" src="/js/day_count.js"></script></head>
     </div>
 </div><!-- .nexmoe-drawer -->
     </div>
@@ -523,7 +549,7 @@
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="六宫小姐"><a href="#六宫小姐" class="headerlink" title="六宫小姐"></a>六宫小姐</h1><blockquote>
 <p>我什么都不需要，生也罢，死也罢，都是一样的。</p>
 </blockquote>
-<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>　　六宫小姐的父亲是从前的一位皇女所生，但他为人古板守旧，不追逐时流，所以官位只做到兵部大辅<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="兵部省是日本古代律令制下的八省之一，掌管有关军事防卫、武官考选、武器管理等事项，长官为兵部卿。兵部大辅是仅次于兵部卿的次官，官阶为五品。
+<h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><p>　　六宫小姐的父亲是从前的一位皇女所生，但他为人古板守旧，不追逐时流，所以官位只做到兵部大辅<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="兵部省是日本古代律令制下的八省之一，掌管有关军事防卫、武官考选、武器管理等事项，长官为兵部卿。兵部大辅是仅次于兵部卿的次官，官阶为五品。
 ">[1]</span></a></sup>，便再无升迁。小姐与父母一起住在六宫旁边的一座颇为高大的府邸中。六宫小姐的称呼，便缘自这一地名。</p>
 <p>　　父母十分宠爱小姐，但他们仍是老式做派，没有主动为她寻觅一位佳婿，而是期待有人上门求亲。小姐恪守父母的训诲，谦恭守礼地度着闺中岁月。那是既不知哀愁也不知欢喜的人生。不过，不谙世事的小姐并未感到如何不满，“只要父母康健就足够了”——小姐如此思忖。</p>
 <p>　　古池畔的垂枝樱每年都绽放稀疏的花朵。不知不觉间，小姐长成了美貌娴静的淑女。可是，小姐仰赖着的父亲却因为经年喜好饮酒，突然身故了。雪上加霜，母亲由于怀念故人，朝夕悲叹，不出半年也追随父亲而去。小姐的悲哀自不必说，而且更是走投无路。实际上，娇生惯养的小姐除了一位乳母外，再也没有可以依靠的人了。</p>
@@ -546,7 +572,7 @@
 <h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>　　第六年的春天到来了，可是去了陆奥国的男子依然没有回京城。这期间，小姐的仆从已经四散而去，一个人也不剩了。小姐居住的东厢房在一年的大风中倒塌，从那之后，小姐便和乳母一起住在仆人的下房中。那屋子狭窄破旧，说是个住处，其实仅能聊避风雨。搬到下房之后，乳母看到小姐那可怜的身影，便忍不住落泪，但有时候她又会无缘无故地发火。</p>
 <p>　　生活的困窘自不必说，衣柜什物等早就换成了青菜和米，小姐除了身上的一套衫裤外，再无多余的衣物。没有柴烧的时候，乳母就到朽坏破败的正房里拆下木板。可是小姐依然像从前那样，靠弹琴和吟咏诗歌来排遣心情，静静地等待着男子。</p>
 <p>　　那年秋天的一个月夜，乳母来到小姐面前，踌躇良久，说道：</p>
-<p>　　“老爷怕是不会回来了。小姐还是把他忘了吧，您说呢？这一阵子，有一位典药寮<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="典药寮是律令制下的官署之一，掌管宫中的医疗、医药、药园等事项。
+<p>　　“老爷怕是不会回来了。小姐还是把他忘了吧，您说呢？这一阵子，有一位典药寮<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="典药寮是律令制下的官署之一，掌管宫中的医疗、医药、药园等事项。
 ">[2]</span></a></sup>的次官，一直想要求见您呢……”</p>
 <p>　　听着乳母的话，小姐想起了六年前的事。六年前是那么悲伤，怎么哭泣也难以尽情，可是如今，自己的身体和心绪都如此疲惫。“我只想静静地老死枯朽……”此外什么都不想。乳母说完，小姐凝望着皎洁的月亮，面色憔悴，懒懒地摇了摇头。</p>
 <p>　　“我什么都不需要，生也罢，死也罢，都是一样的。”</p>
@@ -593,9 +619,9 @@
 <p>　　侍卫手按佩刀，可是，那声音长长地飘过配房上空，渐渐消失无踪了。</p>
 <p>　　“念佛吧！”法师在月光下抬起脸，“那是个既不知极乐净土也不知地狱，不中用的女人的魂魄。念佛吧！”</p>
 <p>　　侍卫没有回答，只是端详着法师的脸。忽然，他大吃一惊，猛地跪在法师面前，双手扶地：</p>
-<p>　　“您是内记上人<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="内记上人即庆滋保胤（933后—1002），平安时代中期的儒学者、高僧。早年师从文章博士菅原文时，官居从五品的大内记，由此世称内记上人。居官时向佛之心即十分笃诚，公元986年出家，云游各地，多有逸话流传。擅长汉诗、和歌，著作有《池亭记》，有隐栖文学祖师之称。
+<p>　　“您是内记上人<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="内记上人即庆滋保胤（933后—1002），平安时代中期的儒学者、高僧。早年师从文章博士菅原文时，官居从五品的大内记，由此世称内记上人。居官时向佛之心即十分笃诚，公元986年出家，云游各地，多有逸话流传。擅长汉诗、和歌，著作有《池亭记》，有隐栖文学祖师之称。
 ">[3]</span></a></sup>吧？您怎么又在这种地方……”</p>
-<p>　　法师俗家姓名为庆滋保胤，世人皆称他为内记上人，在空也上人<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="空也上人（903—972），平安时代中期的高僧，日本天台宗的祖师。关于空也的传说很多，但史料非常少，庆滋保胤所著《日本往生极乐记》中有空也的记载。
+<p>　　法师俗家姓名为庆滋保胤，世人皆称他为内记上人，在空也上人<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--info hint--medium hint--rounded hint--bounce" aria-label="空也上人（903—972），平安时代中期的高僧，日本天台宗的祖师。关于空也的传说很多，但史料非常少，庆滋保胤所著《日本往生极乐记》中有空也的记载。
 ">[4]</span></a></sup>的弟子中，最是一位得道的高僧。</p>
 <p align="right">作者：芥川龙之介（1922年7月） 译者：赵玉皎</p>
 
@@ -676,7 +702,7 @@
 
  
 
-<script async src="/js/app.js?v=1656329731275"></script>
+<script async src="/js/app.js?v=1689176553800"></script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
@@ -689,6 +715,48 @@
 
 
 
+
+
+    <!-- 全局音乐播放器 -->
+    <div class="aplayer" 
+        data-id="1377353535" 
+        data-server="netease" 
+        data-type="song" 
+        data-fixed="true" 
+        data-mini="true" 
+        data-autoplay="true" 
+        data-order="list" 
+        data-volume="0.3" 
+        data-theme="#1da496" 
+        data-preload="auto" 
+        style="z-index:9999;height:0px" >
+    </div>
+    <style>
+        .aplayer.aplayer-fixed .aplayer-lrc{
+            display: none;
+        }
+    </style>
+
 </body>
+
+<!-- 地狱通信，不能放在head头部，因为会造成执行时需要的元素没渲染。应该还有其它解决方案，但暂且这样吧 -->
+<script>
+    var d = new Date();
+    var h = d.getHours();
+    var dytx = document.getElementById('dytx');
+    //console.log(dytx)
+    if(h == 0){
+        console.log('dytx')
+        dytx.style.visibility = 'visible';	// 显示元素
+        dytx.style.color = '#f00';
+        dytx.style.fontWeight = '800';
+        //dytx.style.display = 'inline';	// 以行内样式显示
+    }else{
+        console.log('no dytx')
+        dytx.style.visibility = 'hidden';	// 隐藏元素
+        //dytx.style.display = 'none';	// 隐藏选择的元素
+    }
+</script>
+
 
 </html>
